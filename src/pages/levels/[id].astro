@@ -1,0 +1,35 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+
+export const getStaticPaths = (async () => {
+const levels =  await getCollection('levels')
+  
+return levels.map((level) => {
+
+  return {
+    params: { id: level.id},
+    props: { level }
+  }
+})
+  
+}) satisfies GetStaticPaths;
+
+const { level } = Astro.props
+
+level.data.structures.sort((a, b) => {
+  if(a.id < b.id){
+    return -1;
+  } else {
+    return 1;
+  }
+})
+
+---
+
+<Layout pageTitle={level.data.name}>
+<ol class="list-inside list-decimal">
+  {level.data.structures.map((structure) => <li>{structure.name}</li>)}
+</ol>
+</Layout>

@@ -1,0 +1,10 @@
+---
+interface Props {
+  imgURL: ImageMetadata
+}
+
+const { imgURL } = Astro.props
+---
+<img src={imgURL.src} alt=""
+  class="border border-uaslp rounded-2xl bg-red-400 w-full">
+

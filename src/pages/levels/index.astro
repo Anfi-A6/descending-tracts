@@ -1,0 +1,17 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+
+const levels = await getCollection('levels')
+
+console.log(levels)
+---
+
+<Layout pageTitle="Index">
+<ul>
+  {levels.map((level) => <li>
+    <a href={`/levels/${level.id}`}>{level.data.name}</a>
+  </li>)}
+</ul>
+</Layout>
+
