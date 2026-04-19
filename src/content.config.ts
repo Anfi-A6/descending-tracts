@@ -4,7 +4,7 @@ import Level from "@data/Level";
 
 const levels = defineCollection({
   loader: glob({ pattern: "*.md", base: "./src/levels" }),
-  schema: Level,
+  schema: ({ image }) => Level(image),
 });
 
 export const collections = { levels };

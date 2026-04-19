@@ -1,11 +1,14 @@
 import { z } from "astro/zod";
 import Macrostructure from "./Macrostructure";
 import Structure from "./Structure";
+import type { SchemaContext } from "astro:content";
 
-const Level = z.object({
-  macrostructure: Macrostructure,
-  name: z.string(),
-  structures: z.array(Structure),
-});
+const Level = (image: SchemaContext["image"]) =>
+  z.object({
+    macrostructure: Macrostructure,
+    name: z.string(),
+    structures: z.array(Structure),
+    imgUrl: image(),
+  });
 
 export default Level;

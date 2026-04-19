@@ -18,7 +18,7 @@ return levels.map((level) => {
 
 const { level } = Astro.props
 
-level.data.structures.sort((a, b) => {
+const sortedStructures = [...level.data.structures].sort((a, b) => {
   if(a.id < b.id){
     return -1;
   } else {
@@ -26,10 +26,102 @@ level.data.structures.sort((a, b) => {
   }
 })
 
+const imageUrl = level.data.imgUrl.src;
+
+console.log(imageUrl)
 ---
 
 <Layout pageTitle={level.data.name}>
-<ol class="list-inside list-decimal">
-  {level.data.structures.map((structure) => <li>{structure.name}</li>)}
-</ol>
+  <div class="w-full px-1 sm:px-1 md:px-8 py-6 sm:py-8">
+    <!-- Image Section -->
+    {imageUrl && (
+      <>
+        <div class="flex justify-center mb-4 sm:mb-6">
+          <div class="w-full max-w-4xl">
+            <img 
+              id="mainImage"
+              src={imageUrl} 
+              alt={level.data.name}
+              class="w-full h-auto object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow duration-200 cursor-pointer"
+            />
+            <div class="flex justify-center mt-3 sm:mt-4">
+              <button 
+                id="expandBtn"
+                class="bg-uaslp hover:bg-opacity-90 text-white px-4 py-2 rounded-lg font-semibold flex items-center gap-2 transition-all duration-200"
+                aria-label="Expand image"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7 17h3q.425 0 .713.288T11 18t-.288.713T10 19H6q-.425 0-.712-.288T5 18v-4q0-.425.288-.712T6 13t.713.288T7 14zM17 7h-3q-.425 0-.712-.288T13 6t.288-.712T14 5h4q.425 0 .713.288T19 6v4q0 .425-.288.713T18 11t-.712-.288T17 10z"/></svg>
+                Ampliar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div 
+          id="imageModal"
+          class="hidden fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4 cursor-pointer"
+        >
+          <button
+            id="closeBtn"
+            class="absolute top-4 right-4 text-white hover:bg-gray-700 rounded-full p-2 transition-colors duration-200"
+            aria-label="Close modal"
+          >
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+          <img 
+            id="modalImage"
+            src={imageUrl}
+            alt={level.data.name}
+            class="max-w-5xl max-h-[85vh] w-auto h-auto object-contain rounded-lg shadow-2xl"
+          />
+        </div>
+      </>
+    )}
+    
+    <!-- Structures List Section -->
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-2 sm:mb-3">Estructuras</h2>
+      <p class="text-gray-600 text-sm sm:text-base mb-6 sm:mb-8">Componentes anatómicos identificados</p>
+      <div class="space-y-2 sm:space-y-3">
+        {sortedStructures.map((structure, index) => (
+          <div class="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-lg bg-white border border-gray-200 hover:border-uaslp hover:shadow-md transition-all duration-200 group cursor-pointer">
+            <span class="shrink-0 inline-flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 bg-uaslp text-white rounded-full text-xs sm:text-sm font-bold group-hover:scale-110 transition-transform duration-200">
+              {structure.id}
+            </span>
+            <span class="pt-1 sm:pt-1.5 text-gray-800 text-sm sm:text-base font-medium group-hover:text-gray-900 transition-colors duration-200">
+              {structure.name}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const modal = document.getElementById('imageModal');
+    const expandBtn = document.getElementById('expandBtn');
+    const closeBtn = document.getElementById('closeBtn');
+    const mainImage = document.getElementById('mainImage');
+
+    expandBtn?.addEventListener('click', () => {
+      modal?.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    });
+
+    closeBtn?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      modal?.classList.add('hidden');
+      document.body.style.overflow = 'auto';
+    });
+
+    modal?.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  </script>
 </Layout>
