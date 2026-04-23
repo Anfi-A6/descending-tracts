@@ -1,7 +1,7 @@
 ---
 imgUrl: "../img/test.jpg"
 macrostructure: "Medulla"
-name: "Parte media de los núcleos olivares"
+name: "Por debajo del puente"
 structures: [
 { id: 1, name: "Fascículo longitudinal medial" },
 { id: 2, name: "Núcleo hipogloso" },
