@@ -1,6 +1,7 @@
 ---
-imgUrl: "../img/test.jpg"
+imgUrl: "../img/decusacion_piramides.jpg"
 macrostructure: "Medulla"
+svgPath: "decusacion_piramides.svg"
 name: "Decusación de las pirámides"
 structures:
   [
