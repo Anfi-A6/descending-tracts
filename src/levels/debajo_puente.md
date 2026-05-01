@@ -1,6 +1,7 @@
 ---
-imgUrl: "../img/test.jpg"
+imgUrl: "../img/debajo_puente.jpg"
 macrostructure: "Medulla"
+svgPath: "debajo_puente.svg"
 name: "Por debajo del puente"
 structures: [
 { id: 1, name: "Fascículo longitudinal medial" },
