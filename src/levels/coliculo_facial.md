@@ -1,5 +1,6 @@
 ---
-imgUrl: "../img/test.jpg"
+imgUrl: "../img/coliculo_facial.jpg"
+svgPath: "coliculo_facial.svg"
 macrostructure: "Pons"
 name: "Colículo facial"
 structures: [
