@@ -1,7 +1,8 @@
 ---
 macrostructure: "Midbrain"
 name: "Colículo inferior"
-imgUrl: "../img/test.jpg"
+imgUrl: "../img/coliculo_inferior.jpg"
+svgPath: "coliculo_inferior.svg"
 structures:
   [
     { id: 1, name: "Nervio troclear" },
