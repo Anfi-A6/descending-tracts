@@ -1,7 +1,7 @@
 {
   "name": "pons-medulla-model",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.1.1",
   "engines": {
     "node": ">=22.12.0"
   },
@@ -10,7 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "changelog": "conventional-changelog -p angular -r 0 -i CHANGELOG.md -s"
+    "changelog": "commit-and-tag-version"
   },
   "dependencies": {
     "@astrojs/svelte": "^8.0.5",
@@ -28,6 +28,7 @@
   "devDependencies": {
     "@vite-pwa/astro": "^1.2.0",
     "astro-icon": "^1.1.5",
+    "commit-and-tag-version": "^12.7.1",
     "conventional-changelog-cli": "^5.0.0"
   }
 }
