@@ -6,6 +6,13 @@ layout: "@layouts/Layout.astro"
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.0](https://github.com/AramLR/pons-medulla-model/compare/v1.1.1...v1.2.0) (2026-05-02)
+
+### Features
+
+- add pwa and offline support ([d606628](https://github.com/AramLR/pons-medulla-model/commit/d606628f0d80896ceb8e30a08a782fccd0f5709e))
+- **changelog:** update changelog ([982dd69](https://github.com/AramLR/pons-medulla-model/commit/982dd69e2f88f8e39eed400ba52f7f0739aff037))
+
 ## [1.1.1](https://github.com/AramLR/pons-medulla-model/compare/v1.1.0...v1.1.1) (2026-05-02)
 
 ## [0.0.1](https://github.com/AramLR/pons-medulla-model/compare/v1.1.0...v0.0.1) (2026-05-02)
