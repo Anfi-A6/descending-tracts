@@ -17,10 +17,64 @@ const href = "/"
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{pageTitle}</title>
   <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <script src="/registerSW.js" defer></script>
+  <script>
+    let deferredPrompt;
+  const banner = document.getElementById("pwa-banner");
+  const bannerDesc = document.getElementById("pwa-desc");
+  const installBtn = document.getElementById("pwa-install");
+
+  const isIos = /iphone|ipad|ipod/.test(navigator.userAgent.toLowerCase());
+  const isInStandaloneMode = window.matchMedia("(display-mode: standalone)").matches;
+
+  // Android / Chrome
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    banner?.classList.remove("hidden");
+  });
+
+  // iOS
+  if (isIos && !isInStandaloneMode) {
+    if (bannerDesc) bannerDesc.textContent = "Para instalar, toca el botón de compartir y selecciona \"Añadir a pantalla de inicio\".";
+    if (installBtn) installBtn.classList.add("hidden"); // No programmatic install on iOS
+    banner?.classList.remove("hidden");
+  }
+
+  installBtn?.addEventListener("click", async () => {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    deferredPrompt = null;
+    banner?.classList.add("hidden");
+  });
+
+  document.getElementById("pwa-dismiss")?.addEventListener("click", () => {
+    banner?.classList.add("hidden");
+  });
+  </script>
   <ClientRouter/>
 </head>
 <body>
+
+  <div id="pwa-banner" class="hidden fixed bottom-4 left-4 right-4 z-50 alert alert-info shadow-lg">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+  </svg>
+  <div>
+    <p class="font-semibold">Instalar app</p>
+    <p id="pwa-desc" class="text-sm">Accede sin conexión desde tu pantalla de inicio</p>
+  </div>
+  <div class="flex gap-2">
+    <button id="pwa-install" class="btn btn-sm btn-primary">Instalar</button>
+    <button id="pwa-dismiss" class="btn btn-sm btn-ghost">Ahora no</button>
+  </div>
+</div> 
+
   <Header pageTitle={pageTitle} transition:animate="none"/>  
 
   <section class="p-10 prose prose-invert max-w-none">
