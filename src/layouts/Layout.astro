@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css"
+import { ClientRouter } from 'astro:transitions'
 import Header from "@components/Header.astro"
 interface Props {
   pageTitle: string
@@ -16,9 +17,10 @@ const href = "/"
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{pageTitle}</title>
   <link rel="manifest" href="/manifest.webmanifest" />
+  <ClientRouter/>
 </head>
 <body>
-  <Header pageTitle={pageTitle}/>  
+  <Header pageTitle={pageTitle} transition:animate="none"/>  
 
   <section class="p-10 prose prose-invert max-w-none">
     <slot/>
