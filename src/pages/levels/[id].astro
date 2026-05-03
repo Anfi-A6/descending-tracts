@@ -54,6 +54,7 @@ const imageUrl = level.data.imgUrl.src;
                 <h2 id="cardTitle" class="card-title text-2xl sm:text-3xl text-gray-900">
                   Selecciona una estructura para continuar
                 </h2>
+                <p id="cardBody"></p>
               </div>
               <div class="card-actions justify-start mt-4">
                 <button
@@ -134,6 +135,7 @@ const imageUrl = level.data.imgUrl.src;
 
     const structure = getStructure(el.id);
     const cardTitle = document.getElementById("cardTitle");
+    const cardBody = document.getElementById("cardBody")
 
     if (cardTitle) {
       // Animate the title swap with GSAP if available
@@ -148,6 +150,10 @@ const imageUrl = level.data.imgUrl.src;
         );
       } else {
         cardTitle.textContent = newText;
+      }
+
+      if(cardBody && structure?.description){
+        cardBody.textContent = structure.description
       }
     }
   }

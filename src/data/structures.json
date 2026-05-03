@@ -2,576 +2,571 @@
   {
     "svg_id": "pedunculos_cerebelosos_superiores",
     "name": "Pedúnculos cerebelosos superiores",
-    "description": ""
+    "description": "Constituyen la principal vía eferente del cerebelo y emergen del núcleo dentado para cruzar la línea media en la decusación de los pedúnculos cerebelosos superiores, en el tegmento del mesencéfalo. Sus fibras ascienden hacia el núcleo rojo y el tálamo ventrolateral, desde donde se proyectan a la corteza motora primaria para la coordinación del movimiento voluntario."
   },
   {
     "svg_id": "cavidad_del_cuarto_ventriculo",
     "name": "Cavidad del cuarto ventrículo",
-    "description": ""
+    "description": "Espacio ventricular romboide situado entre el tronco encefálico por anterior y el cerebelo por posterior, cuyo piso —el romboencéfalo— aloja los núcleos de los pares craneales V al XII. Se comunica superiormente con el acueducto mesencefálico y, mediante las aberturas laterales y mediana, con el espacio subaracnoideo, participando en la circulación del líquido cefalorraquídeo."
   },
   {
     "svg_id": "pedunculos_cerebelosos_inferiores",
     "name": "Pedúnculos cerebelosos inferiores",
-    "description": ""
+    "description": "Conectan el cerebelo con la médula oblongada y transportan fibras aferentes procedentes de los tractos espinocerebelosos posteriores, los núcleos olivares inferiores y los núcleos vestibulares. Sus componentes eferentes incluyen fibras cerebelovestibulares que influyen sobre el tono muscular y el equilibrio a través del tracto vestibuloespinal."
   },
   {
     "svg_id": "nucleos_vestibulares",
     "name": "Núcleos vestibulares",
-    "description": ""
+    "description": "Situados en la unión bulbopontina bajo el piso del cuarto ventrículo, reciben aferencias del nervio vestibular (VIII par) y del cerebelo. Emiten fibras hacia el fascículo longitudinal medial —controlando los movimientos conjugados de los ojos— y hacia la médula espinal a través del tracto vestibuloespinal, regulando el tono muscular postural."
   },
   {
     "svg_id": "fasciculo_longitudinal_medial",
     "name": "Fascículo longitudinal medial",
-    "description": ""
+    "description": "Haz periependimario que recorre el tegmento del tronco encefálico desde la médula espinal cervical hasta el mesencéfalo, interconectando los núcleos de los nervios oculomotores (III, IV y VI) con los núcleos vestibulares y los centros motores del cuello. Es la vía fundamental para la coordinación de los movimientos conjugados de los ojos y la cabeza en respuesta a estímulos vestibulares."
   },
   {
     "svg_id": "lemniscos_mediales",
     "name": "Lemniscos mediales",
-    "description": ""
+    "description": "Formados por los axones de las neuronas de segundo orden de los núcleos grácil y cuneiforme que cruzan la línea media como fibras arcuatas internas en la decusación de los lemniscos, ascienden por el tegmento del tronco encefálico aplicados a la superficie ventral. Conducen sensibilidad propioceptiva consciente, táctil discriminativa y vibratoria hacia el núcleo ventral posterolateral del tálamo."
   },
   {
     "svg_id": "cuerpo_trapezoide",
     "name": "Cuerpo trapezoide",
-    "description": ""
+    "description": "Formación de fibras transversas situada en la porción ventral del tegmento pontino inferior que constituye la principal decusación de la vía auditiva ascendente. Sus fibras conectan los núcleos cocleares de ambos lados con el lemnisco lateral y el colículo inferior, y son atravesadas en sentido longitudinal por el lemnisco medial y los tractos corticoespinales."
   },
   {
     "svg_id": "tracto_y_nucleos_espinales_del_trigemino",
     "name": "Tractos y núcleos espinales del trigémino",
-    "description": ""
+    "description": "El tracto espinal del trigémino desciende desde el puente hasta los segmentos cervicales superiores de la médula espinal, acompañado medialmente por el núcleo espinal donde hacen sinapsis las fibras que conducen dolor, temperatura y tacto burdo de la cara. Las neuronas de segundo orden cruzan la línea media y ascienden como lemnisco trigeminal hacia el núcleo ventral posteromedial del tálamo."
   },
   {
     "svg_id": "nucleos_del_nervio_abducens",
     "name": "Núcleos del nervio abducens",
-    "description": ""
+    "description": "Situados en el tegmento del puente inferior, bajo el colículo facial del piso del cuarto ventrículo, inervan el músculo recto lateral ipsilateral a través del VI par craneal. El núcleo contiene también interneuronas que, a través del fascículo longitudinal medial contralateral, coordinan la acción del músculo recto medial durante la mirada lateral conjugada."
   },
   {
     "svg_id": "nucleos_del_nervio_facial",
     "name": "Núcleos del nervio facial",
-    "description": ""
+    "description": "Localizados en el tegmento del puente inferior, sus axones forman el nervio facial (VII par), que rodea dorsalmente el núcleo del abducens creando el colículo facial antes de salir del tronco encefálico por el surco bulbopontino. Inervan todos los músculos de la mímica facial; la porción superior del núcleo recibe proyecciones corticonucleares bilaterales, mientras la inferior solo las recibe contralaterales."
   },
   {
     "svg_id": "nucleos_pontinos",
     "name": "Núcleos pontinos",
-    "description": ""
+    "description": "Agrupaciones nucleares dispersas en la base del puente que reciben aferencias de la corteza cerebral a través de las fibras corticopontinas y emiten axones que cruzan la línea media como fibras pontinas transversas para alcanzar el hemisferio cerebeloso contralateral por el pedúnculo cerebeloso medio. Constituyen el principal relevo de la vía corticopontocerebelosa, fundamental para la coordinación de movimientos aprendidos."
   },
   {
     "svg_id": "haces_de_fibras_corticoespinales_y_corticonucleares",
     "name": "Haces de fibras corticoespinales y corticonucleares",
-    "description": ""
+    "description": "Descienden desde la corteza motora primaria y premotora a través de la cápsula interna y los pedúnculos cerebrales, ocupando los tres quintos medios del pie peduncular. En el puente quedan dispersados por los núcleos pontinos antes de reagruparse en las pirámides bulbares; las fibras corticonucleares se separan progresivamente para alcanzar los núcleos motores de los pares craneales ipsi y contralaterales."
   },
   {
     "svg_id": "fibras_pontinas_transversas",
     "name": "Fibras pontinas transversas",
-    "description": ""
+    "description": "Axones de las neuronas de los núcleos pontinos que cruzan la línea media en la base del puente y convergen para formar el pedúnculo cerebeloso medio. Constituyen la vía de salida del relevo corticopontino hacia el cerebelo contralateral y, en el plano axial del puente, dividen los haces corticoespinales en fascículos separados."
   },
   {
     "svg_id": "coliculo_inferior",
     "name": "Colículo inferior",
-    "description": ""
+    "description": "Eminencia par del tectum mesencefálico que representa la estación de relevo subcortical más importante de la vía auditiva ascendente; recibe aferencias del lemnisco lateral de ambos lados y del cuerpo trapezoide. Emite proyecciones hacia el cuerpo geniculado medial del tálamo a través del brazo del colículo inferior y participa en los reflejos de orientación auditiva mediante conexiones con el colículo superior."
   },
   {
     "svg_id": "nucleos_de_los_nervios_trocleares",
     "name": "Núcleos de los nervios trocleares",
-    "description": ""
+    "description": "Situados en el tegmento mesencefálico inferior, a nivel del colículo inferior y ventral al acueducto, sus axones siguen un curso dorsal y caudal, decusándose completamente en el velo medular superior antes de emerger en la cara posterior del tronco encefálico. Inervan el músculo oblicuo superior contralateral, cuya función es la depresión y la inciclotorsión del globo ocular."
   },
   {
     "svg_id": "lemniscos__LTEM_",
     "name": "Lemniscos (LTEM)",
-    "description": ""
+    "description": "El lemnisco trigeminal (o lemnisco trigémino-espinal medial) está formado por axones de las neuronas de segundo orden de los núcleos sensitivos del trigémino que cruzan la línea media y ascienden adyacentes al lemnisco medial. Conduce sensibilidad táctil discriminativa y propioceptiva de la cara hacia el núcleo ventral posteromedial del tálamo."
   },
   {
     "svg_id": "sustancia_negra",
     "name": "Sustancia negra",
-    "description": ""
+    "description": "Masa nuclear pigmentada situada entre el tegmento y el pie peduncular que se extiende a lo largo de todo el mesencéfalo; la pars compacta emite proyecciones dopaminérgicas nigroestriatales hacia el putamen y el caudado, modulando los circuitos de los ganglios basales. La pars reticulata, funcionalmente similar al globo pálido interno, proyecta hacia el tálamo motor y el colículo superior regulando los movimientos oculares sacádicos."
   },
   {
     "svg_id": "pie_peduncular",
     "name": "Pie peduncular",
-    "description": ""
+    "description": "Porción anterior del pedúnculo cerebral, formada por los grandes haces de fibras descendentes —corticoespinales, corticonucleares y corticopontinas— que emergen de la cápsula interna. Sus tres quintos medios están ocupados por las fibras corticoespinales y corticonucleares, mientras el quinto medial y el lateral conducen fibras corticopontinas frontales y temporooccipitales, respectivamente."
   },
   {
     "svg_id": "nucleos_mesencefalicos_del_trigemino",
     "name": "Núcleos mesencefálicos del trigémino",
-    "description": ""
+    "description": "Columna de neuronas pseudounipolares que se extiende desde el puente superior hasta el mesencéfalo, lateral al acueducto, y que constituye el único núcleo sensorial primario situado dentro del sistema nervioso central. Sus células reciben aferencias propioceptivas de los músculos masticadores, los músculos extraoculares y el periodonto, enviando colaterales al núcleo motor del trigémino para completar el arco del reflejo mandibular."
   },
   {
     "svg_id": "decusacion_de_los_pedunculos_cerebelosos_superiores",
     "name": "Decusación de los pedúnculos cerebelosos superiores",
-    "description": ""
+    "description": "Cruce completo de las fibras eferentes cerebelosas que tiene lugar en el tegmento mesencefálico inferior, entre los niveles del colículo inferior y el núcleo rojo. Tras la decusación, las fibras ascienden para hacer sinapsis en el núcleo rojo contralateral y continúan hacia el núcleo ventrolateral del tálamo, asegurando que cada hemisferio cerebeloso coordine la motricidad del lado ipsilateral del cuerpo."
   },
   {
     "svg_id": "sustancia_gris_central",
     "name": "Sustancia gris central",
-    "description": ""
+    "description": "Manguito de sustancia gris que rodea el acueducto mesencefálico y se continúa superiormente con la sustancia gris periacueductal del diencéfalo. Contiene interneuronas que intervienen en la modulación descendente del dolor mediante proyecciones hacia los núcleos del rafe y el asta posterior de la médula, y alberga los núcleos de los nervios oculomotor y troclear en su superficie ventral."
   },
   {
     "svg_id": "acueducto_mesencefalico",
     "name": "Acueducto mesencefálico",
-    "description": ""
+    "description": "Canal estrecho que comunica el tercer ventrículo con el cuarto ventrículo y que discurre a través del mesencéfalo rodeado por la sustancia gris central. Su obstrucción produce hidrocefalia no comunicante con dilatación de los ventrículos supratentoriales; en sus paredes se encuentran los núcleos de los pares craneales III y IV."
   },
   {
     "svg_id": "coliculo_superior_derecho",
     "name": "Colículo superior derecho",
-    "description": ""
+    "description": "Eminencia laminada del tectum mesencefálico derecho que recibe aferencias visuales de la retina contralateral a través del brazo del colículo superior, de la corteza visual y de fibras espinales. Coordina los movimientos sacádicos y de orientación hacia estímulos visuales y auditivos mediante proyecciones al núcleo del nervio oculomotor y al tracto tectoespinal cruzado."
   },
   {
     "svg_id": "coliculo_superior_izquierdo",
     "name": "Colículo superior izquierdo",
-    "description": ""
+    "description": "Eminencia laminada del tectum mesencefálico izquierdo que recibe aferencias visuales de la retina contralateral a través del brazo del colículo superior, de la corteza visual y de fibras espinales. Coordina los movimientos sacádicos y de orientación hacia estímulos visuales y auditivos mediante proyecciones al núcleo del nervio oculomotor y al tracto tectoespinal cruzado."
   },
   {
     "svg_id": "lemniscos_izquierdos",
     "name": "Lemniscos izquierdos",
-    "description": ""
+    "description": "Conjunto de fibras ascendentes de segundo orden que incluye el lemnisco medial izquierdo —conductor de sensibilidad propioceptiva y táctil discriminativa del hemicuerpo derecho— y el lemnisco espinal izquierdo, que conduce dolor y temperatura. Ascienden por el tegmento bulbopontomesencefálico izquierdo para alcanzar el núcleo ventral posterolateral del tálamo izquierdo."
   },
   {
     "svg_id": "lemniscos_derechos",
     "name": "Lemniscos derechos",
-    "description": ""
+    "description": "Conjunto de fibras ascendentes de segundo orden que incluye el lemnisco medial derecho —conductor de sensibilidad propioceptiva y táctil discriminativa del hemicuerpo izquierdo— y el lemnisco espinal derecho, que conduce dolor y temperatura. Ascienden por el tegmento bulbopontomesencefálico derecho para alcanzar el núcleo ventral posterolateral del tálamo derecho."
   },
   {
     "svg_id": "fasciculo_longitudinal_medial_derecho",
     "name": "Fascículo longitudinal medial derecho",
-    "description": ""
+    "description": "Haz periependimario derecho que conecta los núcleos vestibulares con los núcleos oculomotores ipsi y contralaterales, coordinando la mirada conjugada horizontal y el reflejo vestibuloocular. Su lesión produce oftalmoplejía internuclear, caracterizada por paresia del recto medial ipsilateral con nistagmo del ojo contralateral en la mirada lateral."
   },
   {
     "svg_id": "fasciculo_longitudinal_medial_izquierdo",
     "name": "Fascículo longitudinal medial izquierdo",
-    "description": ""
+    "description": "Haz periependimario izquierdo que conecta los núcleos vestibulares con los núcleos oculomotores ipsi y contralaterales, coordinando la mirada conjugada horizontal y el reflejo vestibuloocular. Su lesión produce oftalmoplejía internuclear, caracterizada por paresia del recto medial ipsilateral con nistagmo del ojo contralateral en la mirada lateral."
   },
   {
     "svg_id": "nucleo_rojo_derecho",
     "name": "Núcleo rojo derecho",
-    "description": ""
+    "description": "Núcleo ovoide del tegmento mesencefálico superior derecho, situado dentro de la formación reticular y rodeado por fibras del lemnisco medial; recibe aferencias del pedúnculo cerebeloso superior izquierdo —tras la decusación— y de la corteza motora ipsilateral. Emite el tracto rubroespinal cruzado hacia el asta anterior medular, participando en la regulación del tono flexor de las extremidades contralaterales."
   },
   {
     "svg_id": "nucleo_rojo_izquierdo",
     "name": "Núcleo rojo izquierdo",
-    "description": ""
+    "description": "Núcleo ovoide del tegmento mesencefálico superior izquierdo, situado dentro de la formación reticular y rodeado por fibras del lemnisco medial; recibe aferencias del pedúnculo cerebeloso superior derecho —tras la decusación— y de la corteza motora ipsilateral. Emite el tracto rubroespinal cruzado hacia el asta anterior medular, participando en la regulación del tono flexor de las extremidades contralaterales."
   },
   {
     "svg_id": "nucleo_derecho_del_nervio_oculomotor",
     "name": "Núcleo derecho del nervio oculomotor",
-    "description": ""
+    "description": "Situado en el tegmento mesencefálico a nivel del colículo superior, ventral a la sustancia gris central derecha, inerva los músculos recto superior, recto inferior, recto medial y oblicuo inferior del ojo ipsilateral, así como el elevador del párpado superior. Incluye el núcleo de Edinger-Westphal, de naturaleza parasimpática, cuyas fibras preganglionares viajan con el III par hasta el ganglio ciliar para el reflejo pupilar de acomodación."
   },
   {
     "svg_id": "nucleo_izquierdo_del_nervio_oculomotor",
     "name": "Núcleo izquierdo del nervio oculomotor",
-    "description": ""
+    "description": "Situado en el tegmento mesencefálico a nivel del colículo superior, ventral a la sustancia gris central izquierda, inerva los músculos recto superior, recto inferior, recto medial y oblicuo inferior del ojo ipsilateral, así como el elevador del párpado superior. Incluye el núcleo de Edinger-Westphal, de naturaleza parasimpática, cuyas fibras preganglionares viajan con el III par hasta el ganglio ciliar para el reflejo pupilar de acomodación."
   },
   {
     "svg_id": "nucleo_mesencefalico_del_trigemino_derecho",
     "name": "Núcleo mesencefálico derecho del trigémino",
-    "description": ""
+    "description": "Columna de neuronas pseudounipolares situada lateral al acueducto mesencefálico derecho que recibe impulsos propioceptivos de los músculos masticadores y periodonto ipsilaterales. Sus axones emiten colaterales al núcleo motor del trigémino para el reflejo mandibular y ascienden hacia el tálamo como parte del lemnisco trigeminal."
   },
   {
     "svg_id": "nucleo_mesencefalico_del_trigemino_izquierdo",
     "name": "Núcleo mesencefálico izquierdo del trigémino",
-    "description": ""
-  },
-  {
-    "svg_id": "sustancia_gris_central",
-    "name": "Sustancia gris central",
-    "description": ""
+    "description": "Columna de neuronas pseudounipolares situada lateral al acueducto mesencefálico izquierdo que recibe impulsos propioceptivos de los músculos masticadores y periodonto ipsilaterales. Sus axones emiten colaterales al núcleo motor del trigémino para el reflejo mandibular y ascienden hacia el tálamo como parte del lemnisco trigeminal."
   },
   {
     "svg_id": "sustancia_negra_derecha",
     "name": "Sustancia negra derecha",
-    "description": ""
+    "description": "Masa nuclear pigmentada del mesencéfalo derecho interpuesta entre el tegmento y el pie peduncular; su pars compacta emite proyecciones dopaminérgicas nigroestriatales hacia el estriado ipsilateral, modulando la iniciación y la fluidez del movimiento. La degeneración de sus neuronas dopaminérgicas es el sustrato patológico de la enfermedad de Parkinson."
   },
   {
     "svg_id": "sustancia_negra_izquierda",
     "name": "Sustancia negra izquierda",
-    "description": ""
+    "description": "Masa nuclear pigmentada del mesencéfalo izquierdo interpuesta entre el tegmento y el pie peduncular; su pars compacta emite proyecciones dopaminérgicas nigroestriatales hacia el estriado ipsilateral, modulando la iniciación y la fluidez del movimiento. La degeneración de sus neuronas dopaminérgicas es el sustrato patológico de la enfermedad de Parkinson."
   },
   {
     "svg_id": "pie_del_pedunculo_izquierdo",
     "name": "Pie del pedúnculo izquierdo",
-    "description": ""
+    "description": "Porción anterior del pedúnculo cerebral izquierdo, compuesta por fibras corticoespinales y corticonucleares que controlan la motricidad voluntaria del hemicuerpo derecho, flanqueadas por fibras corticopontinas. Se continúa caudalmente con la base del puente, donde los haces quedan dispersados entre los núcleos pontinos."
   },
   {
     "svg_id": "decusacion_de_los_lemniscos",
     "name": "Decusación de los lemniscos",
-    "description": ""
+    "description": "Cruce en el plano medio de las fibras arcuatas internas procedentes de los núcleos grácil y cuneiforme, localizado en el tegmento de la médula oblongada inferior. Tras la decusación, las fibras forman el lemnisco medial que asciende aplicado a la superficie anterior del tegmento bulbar, conduciendo sensibilidad propioceptiva y táctil discriminativa del hemicuerpo contralateral."
   },
   {
     "svg_id": "nucleos_arcuatos",
     "name": "Núcleos arcuatos",
-    "description": ""
+    "description": "Pequeñas agrupaciones neuronales situadas en la superficie anterior de las pirámides bulbares, consideradas el equivalente caudal de los núcleos pontinos. Reciben aferencias corticales y envían axones que cruzan la línea media para incorporarse al pedúnculo cerebeloso inferior como fibras arcuatas externas anteriores, contribuyendo a la vía corticopontocerebelosa."
   },
   {
     "svg_id": "piramides",
     "name": "Piramides",
-    "description": ""
+    "description": "Prominencias longitudinales pares en la cara anterior de la médula oblongada, formadas por los tractos corticoespinales descendentes que conducen el control motor voluntario fino. En su extremo inferior, aproximadamente el 85% de las fibras cruzan la línea media en la decusación de las pirámides para formar el tracto corticoespinal lateral contralateral, mientras el resto desciende ipsilateralmente como tracto corticoespinal anterior."
   },
   {
     "svg_id": "nucleos_olivares_inferiores",
     "name": "Núcleos olivares inferiores",
-    "description": ""
+    "description": "Masas nucleares arrugadas que producen la eminencia olivar en la cara anterolateral de la médula oblongada; reciben aferencias de la corteza cerebral, la médula espinal y los ganglios basales, y emiten fibras olivocerebelosas que cruzan la línea media para alcanzar el cerebelo por el pedúnculo cerebeloso inferior. Funcionan como moduladores del aprendizaje motor, enviando señales de error al cerebelo."
   },
   {
     "svg_id": "lemnisco_medial",
     "name": "Lemnisco medial",
-    "description": ""
+    "description": "Tracto ascendente de fibras de segundo orden formado en la decusación de los lemniscos que conduce sensibilidad propioceptiva consciente, táctil discriminativa y vibratoria del hemicuerpo contralateral. Asciende desde la médula oblongada hasta el mesencéfalo, donde termina en el núcleo ventral posterolateral del tálamo para su relevo a la corteza somatosensitiva primaria."
   },
   {
     "svg_id": "tracto_tectoespinal",
     "name": "Tracto tectoespinal",
-    "description": ""
+    "description": "Tracto eferente que origina en el colículo superior y cruza la línea media inmediatamente como parte de la decusación tegmental dorsal, desciendo por el tegmento del tronco encefálico próximo a la línea media. Termina principalmente en los segmentos cervicales superiores de la médula para coordinar los movimientos reflejos de la cabeza y el cuello en respuesta a estímulos visuales y auditivos."
   },
   {
     "svg_id": "nucleos_vagales_dorsales",
     "name": "Núcleos vagales dorsales",
-    "description": ""
+    "description": "Núcleos parasimpáticos preganglionares situados en el trigono vagal del piso del cuarto ventrículo, dorsal al núcleo hipogloso; sus axones viajan con el nervio vago (X par) hacia ganglios terminales en las vísceras torácicas y abdominales. Regulan la frecuencia cardíaca, la motilidad y las secreciones del tubo digestivo hasta el ángulo esplénico del colon."
   },
   {
     "svg_id": "nucleos_hipoglosos",
     "name": "Núcleos hipoglosos",
-    "description": ""
+    "description": "Situados en el trigono hipogloso del piso del cuarto ventrículo, cerca de la línea media y dorsal a las pirámides, inervan todos los músculos intrínsecos y la mayoría de los extrínsecos de la lengua a través del nervio hipogloso (XII par). Reciben proyecciones corticonucleares predominantemente contralaterales; su lesión central produce desviación lingual hacia el lado contralateral a la lesión."
   },
   {
     "svg_id": "nucleos_vestibulares_mediales",
     "name": "Núcleos vestibulares mediales",
-    "description": ""
+    "description": "Situados en la parte medial del complejo vestibular, bajo el piso del cuarto ventrículo en la unión bulbopontina, reciben aferencias del nervio vestibular y de los canales semicirculares. Proyectan bilateralmente al fascículo longitudinal medial coordinando los movimientos oculares compensadores, y emiten el tracto vestibuloespinal medial para el ajuste de la postura de la cabeza y el cuello."
   },
   {
     "svg_id": "nucleos_vestibulares_laterales",
     "name": "Núcleos vestibulares laterales",
-    "description": ""
+    "description": "Formados principalmente por las grandes células de Deiters, reciben aferencias del utrículo y del cerebelo, y emiten el potente tracto vestibuloespinal lateral ipsilateral que desciende hasta los segmentos sacros. Facilitan la actividad de las motoneuronas extensoras de los cuatro miembros, siendo fundamentales para el mantenimiento de la postura erecta contra la gravedad."
   },
   {
     "svg_id": "nucleos_cocleares_posteriores",
     "name": "Núcleos cocleares posteriores",
-    "description": ""
+    "description": "Situados en la cara dorsal del pedúnculo cerebeloso inferior en la unión bulbopontina, reciben aferencias de la división coclear del VIII par que conduce información auditiva de la espira basal coclear. Sus axones cruzan la línea media en la estría acústica dorsal para incorporarse al lemnisco lateral contralateral ascendente hacia el colículo inferior."
   },
   {
     "svg_id": "nucleos_ambiguos",
     "name": "Núcleos ambiguos",
-    "description": ""
+    "description": "Columna celular situada profundamente en la formación reticular de la médula oblongada, medial al tracto espinal del trigémino, cuyas neuronas proporcionan la inervación motora branquial de los músculos de la faringe, laringe y paladar blando a través de los nervios glosofaríngeo (IX), vago (X) y accesorio (XI). Su lesión produce disartria, disfagia y disfonía características del síndrome bulbar."
   },
   {
     "svg_id": "nucleos_cocleares_anteriores",
     "name": "Núcleos cocleares anteriores",
-    "description": ""
+    "description": "Situados en la cara ventral del pedúnculo cerebeloso inferior, reciben el grueso de las fibras de la división coclear del nervio vestibulococlear para el procesamiento inicial de la información auditiva. Sus axones cruzan la línea media por el cuerpo trapezoide para alcanzar el complejo olivar superior y el lemnisco lateral contralateral hacia el colículo inferior."
   },
   {
     "svg_id": "tractos_espinocerebelosos_anteriores",
     "name": "Tractos espinocerebelosos anteriores",
-    "description": ""
+    "description": "Ascienden por la periferia anterolateral de la médula espinal y el tronco encefálico, cruzando la línea media dos veces —en la médula y al entrar al cerebelo— para alcanzar la corteza cerebelosa por el pedúnculo cerebeloso superior. Conducen información propioceptiva inconsciente de los miembros inferiores y el tronco, informando al cerebelo sobre la actividad global de los circuitos espinales durante el movimiento."
   },
   {
     "svg_id": "nucleos_olivares_accesorios_dorsales",
     "name": "Núcleos olivares accesorios dorsales",
-    "description": ""
+    "description": "Láminas nucleares situadas dorsal y medialmente al núcleo olivar inferior principal, con el que comparten aferencias corticales y espinales. Sus fibras olivocerebelosas cruzan la línea media para alcanzar zonas específicas de la corteza cerebelosa por el pedúnculo cerebeloso inferior, contribuyendo a la señalización de errores de movimiento."
   },
   {
     "svg_id": "tractos_espinotalamicos_laterales",
     "name": "Tractos espinotálamicos laterales",
-    "description": ""
+    "description": "Ascienden por la periferia anterolateral del tronco encefálico, inmediatamente mediales al tracto espinal del trigémino, conduciendo dolor, temperatura y tacto burdo del hemicuerpo contralateral. Terminan en el núcleo ventral posterolateral del tálamo y en núcleos intralaminares, desde donde se proyectan a la corteza somatosensitiva y al sistema límbico para los componentes discriminativo y afectivo del dolor, respectivamente."
   },
   {
     "svg_id": "nucleos_olivares_accesorios_mediales",
     "name": "Núcleos olivares accesorios mediales",
-    "description": ""
+    "description": "Láminas nucleares ubicadas medialmente al núcleo olivar inferior principal que reciben aferencias de la médula espinal y la corteza cerebral. Sus eferencias olivocerebelosas cruzan la línea media por el hilio olivar para ascender al cerebelo a través del pedúnculo cerebeloso inferior, participando en la coordinación del movimiento y el aprendizaje motor."
   },
   {
     "svg_id": "nucleo_espinal_derecho_del_trigemino",
     "name": "Núcleo espinal derecho del trigémino",
-    "description": ""
+    "description": "Columna nuclear que se extiende desde el puente hasta los segmentos cervicales superiores, medial al tracto espinal del trigémino derecho, donde hacen sinapsis las fibras trigeminales ipsilaterales que conducen dolor, temperatura y tacto burdo de la hemicara derecha. Las neuronas de segundo orden cruzan la línea media y ascienden como lemnisco trigeminal hacia el núcleo ventral posteromedial del tálamo."
   },
   {
     "svg_id": "nucleo_espinal_izquierdo_del_trigemino",
     "name": "Núcleo espinal izquierdo del trigémino",
-    "description": ""
+    "description": "Columna nuclear que se extiende desde el puente hasta los segmentos cervicales superiores, medial al tracto espinal del trigémino izquierdo, donde hacen sinapsis las fibras trigeminales ipsilaterales que conducen dolor, temperatura y tacto burdo de la hemicara izquierda. Las neuronas de segundo orden cruzan la línea media y ascienden como lemnisco trigeminal hacia el núcleo ventral posteromedial del tálamo."
   },
   {
     "svg_id": "piramide_derecha",
     "name": "Pirámide derecha",
-    "description": ""
+    "description": "Prominencia longitudinal de la cara anterior de la médula oblongada derecha, formada por las fibras del tracto corticoespinal derecho que controlan la motricidad voluntaria fina del hemicuerpo izquierdo. En la decusación, la mayoría de sus fibras cruzan la línea media para descender como tracto corticoespinal lateral izquierdo en la médula espinal."
   },
   {
     "svg_id": "piramide_izquierda",
     "name": "Pirámide izquierda",
-    "description": ""
+    "description": "Prominencia longitudinal de la cara anterior de la médula oblongada izquierda, formada por las fibras del tracto corticoespinal izquierdo que controlan la motricidad voluntaria fina del hemicuerpo derecho. En la decusación, la mayoría de sus fibras cruzan la línea media para descender como tracto corticoespinal lateral derecho en la médula espinal."
   },
   {
     "svg_id": "nucleo_olivar_inferior_derecho",
     "name": "Núcleo olivar inferior derecho",
-    "description": ""
+    "description": "Gran masa nuclear arrugada de la médula oblongada derecha que produce la eminencia olivar; recibe aferencias de la corteza cerebral, la médula espinal y los ganglios basales contralaterales. Emite fibras olivocerebelosas que cruzan la línea media para alcanzar el hemisferio cerebeloso izquierdo por el pedúnculo cerebeloso inferior, transmitiendo señales de error motor para el aprendizaje y la adaptación de los movimientos."
   },
   {
     "svg_id": "nucleo_olivar_inferior_izquierdo",
     "name": "Núcleo olivar inferior izquierdo",
-    "description": ""
+    "description": "Gran masa nuclear arrugada de la médula oblongada izquierda que produce la eminencia olivar; recibe aferencias de la corteza cerebral, la médula espinal y los ganglios basales contralaterales. Emite fibras olivocerebelosas que cruzan la línea media para alcanzar el hemisferio cerebeloso derecho por el pedúnculo cerebeloso inferior, transmitiendo señales de error motor para el aprendizaje y la adaptación de los movimientos."
   },
   {
     "svg_id": "nucleo_derecho_del_nervio_accesorio",
     "name": "Núcleo derecho del nervio accesorio",
-    "description": ""
+    "description": "Columna de motoneuronas de la asta anterior de los segmentos C1-C5 de la médula espinal derecha cuyos axones ascienden por el conducto vertebral y se unen para formar la raíz espinal del nervio accesorio (XI par). Inerva los músculos esternocleidomastoideo y trapecio ipsilaterales, recibiendo proyecciones corticonucleares predominantemente contralaterales."
   },
   {
     "svg_id": "nucleo_izquierdo_del_nervio_accesorio",
     "name": "Núcleo izquierdo del nervio accesorio",
-    "description": ""
+    "description": "Columna de motoneuronas de la asta anterior de los segmentos C1-C5 de la médula espinal izquierda cuyos axones ascienden por el conducto vertebral y se unen para formar la raíz espinal del nervio accesorio (XI par). Inerva los músculos esternocleidomastoideo y trapecio ipsilaterales, recibiendo proyecciones corticonucleares predominantemente contralaterales."
   },
   {
     "svg_id": "nucleo_gracil_izquierdo",
     "name": "Núcleo grácil izquierdo",
-    "description": ""
+    "description": "Situado en el tubérculo grácil de la cara posterior de la médula oblongada izquierda, recibe los axones del fascículo grácil izquierdo que conducen sensibilidad propioceptiva y táctil discriminativa del miembro inferior y la mitad inferior del tronco ipsilateral. Sus neuronas de segundo orden originan fibras arcuatas internas que cruzan la línea media para formar el lemnisco medial derecho."
   },
   {
     "svg_id": "nucleo_gracil_derecho",
     "name": "Núcleo grácil derecho",
-    "description": ""
+    "description": "Situado en el tubérculo grácil de la cara posterior de la médula oblongada derecha, recibe los axones del fascículo grácil derecho que conducen sensibilidad propioceptiva y táctil discriminativa del miembro inferior y la mitad inferior del tronco ipsilateral. Sus neuronas de segundo orden originan fibras arcuatas internas que cruzan la línea media para formar el lemnisco medial izquierdo."
   },
   {
     "svg_id": "nucleo_cuneiforme_derecho",
     "name": "Núcleo cuneiforme derecho",
-    "description": ""
+    "description": "Situado lateral al núcleo grácil derecho en el tubérculo cuneiforme de la médula oblongada, recibe los axones del fascículo cuneiforme derecho que conducen sensibilidad propioceptiva y táctil discriminativa del miembro superior y la mitad superior del tronco ipsilateral. Sus neuronas de segundo orden forman fibras arcuatas internas que cruzan la línea media para integrase al lemnisco medial izquierdo."
   },
   {
     "svg_id": "nucleo_cuneiforme_izquierdo",
     "name": "Núcleo cuneiforme izquierdo",
-    "description": ""
+    "description": "Situado lateral al núcleo grácil izquierdo en el tubérculo cuneiforme de la médula oblongada, recibe los axones del fascículo cuneiforme izquierdo que conducen sensibilidad propioceptiva y táctil discriminativa del miembro superior y la mitad superior del tronco ipsilateral. Sus neuronas de segundo orden forman fibras arcuatas internas que cruzan la línea media para integrarse al lemnisco medial derecho."
   },
   {
     "svg_id": "conducto_central",
     "name": "Conducto central",
-    "description": ""
+    "description": "Pequeño canal ependimario que recorre el centro de la médula espinal y se continúa caudalmente en la médula oblongada, donde se expande para formar el cuarto ventrículo. Está rodeado por la sustancia gris central o comisura gris, y su persistencia como conducto permeable en el adulto es variable; su dilatación anormal origina la siringomielia."
   },
   {
     "svg_id": "nucleo_hipogloso_derecho",
     "name": "Núcleo hipogloso derecho",
-    "description": ""
+    "description": "Columna nuclear alargada próxima a la línea media y dorsal a las pirámides, en el trigono hipogloso del cuarto ventrículo, cuyos axones forman el nervio hipogloso (XII par) derecho que inerva los músculos de la lengua ipsilateral. Su lesión periférica produce atrofia y fasciculaciones linguales con desviación ipsilateral, mientras la lesión supranuclear provoca desviación contralateral sin atrofia."
   },
   {
     "svg_id": "nucleo_hipogloso_izquierdo",
     "name": "Núcleo hipogloso izquierdo",
-    "description": ""
+    "description": "Columna nuclear alargada próxima a la línea media y dorsal a las pirámides, en el trigono hipogloso del cuarto ventrículo, cuyos axones forman el nervio hipogloso (XII par) izquierdo que inerva los músculos de la lengua ipsilateral. Su lesión periférica produce atrofia y fasciculaciones linguales con desviación ipsilateral, mientras la lesión supranuclear provoca desviación contralateral sin atrofia."
   },
   {
     "svg_id": "fibras_arcuatas_internas_derechas",
     "name": "Fibras arcuatas internas derechas",
-    "description": ""
+    "description": "Axones de las neuronas de los núcleos grácil y cuneiforme derechos que siguen un trayecto arqueado hacia la línea media a través del tegmento de la médula oblongada. Al cruzar al lado izquierdo en la decusación de los lemniscos, estas fibras se incorporan al lemnisco medial izquierdo para ascender hacia el tálamo conduciendo la sensibilidad propioceptiva y táctil discriminativa del hemicuerpo derecho."
   },
   {
     "svg_id": "fibras_arcuatas_internas_izquierdas",
     "name": "Fibras arcuatas internas izquierdas",
-    "description": ""
+    "description": "Axones de las neuronas de los núcleos grácil y cuneiforme izquierdos que siguen un trayecto arqueado hacia la línea media a través del tegmento de la médula oblongada. Al cruzar al lado derecho en la decusación de los lemniscos, estas fibras se incorporan al lemnisco medial derecho para ascender hacia el tálamo conduciendo la sensibilidad propioceptiva y táctil discriminativa del hemicuerpo izquierdo."
   },
   {
     "svg_id": "decusacion_de_los_lemniscos_mediales",
     "name": "Decusación de los lemniscos mediales",
-    "description": ""
+    "description": "Zona de cruce en el plano medio de las fibras arcuatas internas procedentes de los núcleos grácil y cuneiforme de ambos lados, situada en el tegmento de la médula oblongada inferior. Tras la decusación, las fibras ascienden como lemniscos mediales conduciendo la sensibilidad propioceptiva consciente y táctil discriminativa hacia el tálamo contralateral."
   },
   {
     "svg_id": "tracto_espinotalamico_lateral_derecho",
     "name": "Tracto espinotálamico lateral derecho",
-    "description": ""
+    "description": "Asciende por la periferia anterolateral del tronco encefálico derecho, conduciendo señales de dolor y temperatura del hemicuerpo izquierdo cuyos axones cruzaron la línea media en la comisura blanca anterior de la médula espinal. Termina en el núcleo ventral posterolateral del tálamo derecho, donde hace relevo hacia la corteza somatosensitiva para la percepción consciente del dolor."
   },
   {
     "svg_id": "tracto_espinotalamico_lateral_izquierdo",
     "name": "Tracto espinotálamico lateral izquierdo",
-    "description": ""
+    "description": "Asciende por la periferia anterolateral del tronco encefálico izquierdo, conduciendo señales de dolor y temperatura del hemicuerpo derecho cuyos axones cruzaron la línea media en la comisura blanca anterior de la médula espinal. Termina en el núcleo ventral posterolateral del tálamo izquierdo, donde hace relevo hacia la corteza somatosensitiva para la percepción consciente del dolor."
   },
   {
     "svg_id": "tracto_espinocerebeloso_posterior_derecho",
     "name": "Tracto espinocerebeloso posterior derecho",
-    "description": ""
+    "description": "Asciende ipsilateralmente por la periferia posterolateral del tronco encefálico derecho, sin cruzar la línea media, y alcanza el cerebelo por el pedúnculo cerebeloso inferior derecho. Conduce información propioceptiva inconsciente del tronco y los miembros inferiores ipsilaterales —principalmente de los husos musculares— hacia la corteza del vermis cerebeloso."
   },
   {
     "svg_id": "tracto_espinocerebeloso_posterior_izquierdo",
     "name": "Tracto espinocerebeloso posterior izquierdo",
-    "description": ""
+    "description": "Asciende ipsilateralmente por la periferia posterolateral del tronco encefálico izquierdo, sin cruzar la línea media, y alcanza el cerebelo por el pedúnculo cerebeloso inferior izquierdo. Conduce información propioceptiva inconsciente del tronco y los miembros inferiores ipsilaterales —principalmente de los husos musculares— hacia la corteza del vermis cerebeloso."
   },
   {
     "svg_id": "tracto_espinocerebeloso_anterior_derecho",
     "name": "Tracto espinocerebeloso anterior derecho",
-    "description": ""
+    "description": "Asciende por la periferia anterolateral del tronco encefálico hasta el nivel del puente, donde se curva dorsalmente para alcanzar el cerebelo por el pedúnculo cerebeloso superior derecho, efectuando una segunda decusación intracerebelos. Conduce información propioceptiva inconsciente de los miembros inferiores y el tronco contralaterales, informando sobre el estado global de los circuitos espinales."
   },
   {
     "svg_id": "tracto_espinocerebeloso_anterior_izquierdo",
     "name": "Tracto espinocerebeloso anterior izquierdo",
-    "description": ""
+    "description": "Asciende por la periferia anterolateral del tronco encefálico hasta el nivel del puente, donde se curva dorsalmente para alcanzar el cerebelo por el pedúnculo cerebeloso superior izquierdo, efectuando una segunda decusación intracerebelosa. Conduce información propioceptiva inconsciente de los miembros inferiores y el tronco contralaterales, informando sobre el estado global de los circuitos espinales."
   },
   {
     "svg_id": "nucleos_espinales_del_trigemino",
     "name": "Núcleos espinales del trigémino",
-    "description": ""
+    "description": "Larga columna nuclear que se extiende desde el puente hasta los segmentos cervicales superiores de la médula espinal, continua del núcleo del asta posterior, donde hacen sinapsis las fibras trigeminales que conducen dolor, temperatura y tacto burdo de la cara. Sus neuronas de segundo orden cruzan y ascienden como tracto trigeminotalámico ventral hacia el núcleo ventral posteromedial del tálamo."
   },
   {
     "svg_id": "tractos_espinotalamicos",
     "name": "Tractos espinotálamicos",
-    "description": ""
+    "description": "Sistemas de fibras de segundo orden que ascienden por el cuadrante anterolateral del tronco encefálico conduciendo dolor, temperatura y tacto burdo del hemicuerpo contralateral. El tracto espinotalámico lateral transmite dolor y temperatura hacia el núcleo ventral posterolateral del tálamo, mientras el anterior conduce tacto burdo y presión, ambos con su relevo final a la corteza somatosensitiva parietal."
   },
   {
     "svg_id": "tracto_espinocerebeloso_posterior",
     "name": "Tracto espinocerebeloso posterior",
-    "description": ""
+    "description": "Vía propioceptiva inconsciente ipsilateral que conduce información de los husos musculares y los órganos tendinosos de Golgi del tronco y los miembros inferiores desde la columna de Clarke hasta el cerebelo. Asciende sin decusar por la periferia posterolateral del tronco encefálico y alcanza la corteza del vermis cerebeloso a través del pedúnculo cerebeloso inferior."
   },
   {
     "svg_id": "tracto_espinocerebeloso_anterior",
     "name": "Tracto espinocerebeloso anterior",
-    "description": ""
+    "description": "Vía propioceptiva inconsciente que cruza la línea media en la médula espinal y asciende por la periferia anterolateral del tronco encefálico hasta el puente, donde se incorpora al pedúnculo cerebeloso superior efectuando una segunda decusación intracerebelosa. Informa al cerebelo sobre el estado de los circuitos interneuronales espinales durante la locomoción."
   },
   {
     "svg_id": "decusacion_de_las_piramides",
     "name": "Decusación de las pirámides",
-    "description": ""
+    "description": "Cruce de aproximadamente el 85% de las fibras de los tractos corticoespinales en la unión bulboespinal, visible macroscópicamente en la cara anterior de la médula oblongada inferior. Las fibras cruzadas forman el tracto corticoespinal lateral del lado opuesto, que descenderá en el funículo lateral de la médula; el resto desciende sin cruzar como tracto corticoespinal anterior."
   },
   {
     "svg_id": "nucleos_gracil_y_cuneiforme",
     "name": "Núcleos grácil y cuneiforme",
-    "description": ""
+    "description": "Primeras estaciones de relevo sináptico de la vía de la sensibilidad propioceptiva consciente y táctil discriminativa, situados en los tubérculos homónimos de la cara posterior de la médula oblongada. Reciben los axones de las neuronas de primer orden de los fascículos grácil y cuneiforme, respectivamente, y emiten fibras arcuatas internas que cruzan la línea media para formar los lemniscos mediales."
   },
   {
     "svg_id": "tractos_espinales_del_trigemino",
     "name": "Tractos espinales del trigémino",
-    "description": ""
+    "description": "Haces de fibras descendentes primarias de la división sensitiva del nervio trigémino que descienden desde la entrada del nervio en el puente hasta los segmentos cervicales superiores, aplicados lateralmente a los núcleos espinales del trigémino. Conducen fibras de dolor, temperatura y tacto protopático de la cara, y su trayecto explica por qué las lesiones bulbares producen analgesia facial ipsilateral con preservación propioceptiva."
   },
   {
     "svg_id": "nucleo_vestibular_inferior_derecho",
     "name": "Núcleo vestibular inferior derecho",
-    "description": ""
+    "description": "Situado en la porción inferior del complejo vestibular derecho, caudal a los núcleos vestibulares medial y lateral, recibe aferencias del nervio vestibular y del cerebelo. Proyecta principalmente hacia el cerebelo a través del pedúnculo cerebeloso inferior derecho, participando en la integración de la información vestibular para el ajuste del tono muscular y el equilibrio."
   },
   {
     "svg_id": "nucleo_vestibular_inferior_izquierdo",
     "name": "Núcleo vestibular inferior izquierdo",
-    "description": ""
+    "description": "Situado en la porción inferior del complejo vestibular izquierdo, caudal a los núcleos vestibulares medial y lateral, recibe aferencias del nervio vestibular y del cerebelo. Proyecta principalmente hacia el cerebelo a través del pedúnculo cerebeloso inferior izquierdo, participando en la integración de la información vestibular para el ajuste del tono muscular y el equilibrio."
   },
   {
     "svg_id": "nucleo_derecho_del_tracto_solitario",
     "name": "Núcleo derecho del tracto solitario",
-    "description": ""
+    "description": "Situado lateral al núcleo vagal dorsal en la médula oblongada derecha, recibe aferencias viscerales aferentes generales y especiales de los nervios facial (VII), glosofaríngeo (IX) y vago (X), incluyendo el gusto de los dos tercios anteriores de la lengua y el tercio posterior, respectivamente. Proyecta hacia el tálamo para la percepción gustativa consciente y al hipotálamo para los reflejos cardiovasculares y respiratorios."
   },
   {
     "svg_id": "nucleo_izquierdo_del_tracto_solitario",
     "name": "Núcleo izquierdo del tracto solitario",
-    "description": ""
+    "description": "Situado lateral al núcleo vagal dorsal en la médula oblongada izquierda, recibe aferencias viscerales aferentes generales y especiales de los nervios facial (VII), glosofaríngeo (IX) y vago (X), incluyendo el gusto de los dos tercios anteriores de la lengua y el tercio posterior, respectivamente. Proyecta hacia el tálamo para la percepción gustativa consciente y al hipotálamo para los reflejos cardiovasculares y respiratorios."
   },
   {
     "svg_id": "nucleo_vestibular_medial_derecho",
     "name": "Núcleo vestibular medial derecho",
-    "description": ""
+    "description": "El mayor de los núcleos vestibulares derechos, situado bajo el piso del cuarto ventrículo en la unión bulbopontina; recibe aferencias de los canales semicirculares y proyecta bilateralmente al fascículo longitudinal medial. Coordina los movimientos oculares compensadores mediante el reflejo vestibuloocular y contribuye al tracto vestibuloespinal medial para el control postural de la cabeza y el cuello."
   },
   {
     "svg_id": "nucleo_vestibular_medial_izquierdo",
     "name": "Núcleo vestibular medial izquierdo",
-    "description": ""
+    "description": "El mayor de los núcleos vestibulares izquierdos, situado bajo el piso del cuarto ventrículo en la unión bulbopontina; recibe aferencias de los canales semicirculares y proyecta bilateralmente al fascículo longitudinal medial. Coordina los movimientos oculares compensadores mediante el reflejo vestibuloocular y contribuye al tracto vestibuloespinal medial para el control postural de la cabeza y el cuello."
   },
   {
     "svg_id": "nucleo_coclear_posterior_derecho",
     "name": "Núcleo coclear posterior derecho",
-    "description": ""
+    "description": "Situado en la cara dorsal del pedúnculo cerebeloso inferior derecho, recibe aferencias tonotópicas de la división coclear del VIII par derecho para el procesamiento auditivo inicial. Sus axones cruzan la línea media en la estría acústica dorsal para alcanzar el lemnisco lateral contralateral y ascender hacia el colículo inferior izquierdo."
   },
   {
     "svg_id": "nucleo_coclear_posterior_izquierdo",
     "name": "Núcleo coclear posterior izquierdo",
-    "description": ""
+    "description": "Situado en la cara dorsal del pedúnculo cerebeloso inferior izquierdo, recibe aferencias tonotópicas de la división coclear del VIII par izquierdo para el procesamiento auditivo inicial. Sus axones cruzan la línea media en la estría acústica dorsal para alcanzar el lemnisco lateral contralateral y ascender hacia el colículo inferior derecho."
   },
   {
     "svg_id": "tracto_y_nucleos_espinales_derechos_del_trigemino",
     "name": "Tracto y núcleo espinal derecho del trigémino",
-    "description": ""
+    "description": "El tracto espinal del trigémino derecho desciende desde el puente hasta los segmentos cervicales superiores, con las fibras nociceptivas y termorreceptoras de la hemicara derecha, y el núcleo espinal subyacente recibe estas sinapsis. Las neuronas de segundo orden cruzan la línea media y ascienden como lemnisco trigeminal hacia el núcleo ventral posteromedial del tálamo contralateral."
   },
   {
     "svg_id": "tracto_y_nucleos_espinales_izquierdos_del_trigemino",
     "name": "Tracto y núcleo espinal izquierdo del trigémino",
-    "description": ""
+    "description": "El tracto espinal del trigémino izquierdo desciende desde el puente hasta los segmentos cervicales superiores, con las fibras nociceptivas y termorreceptoras de la hemicara izquierda, y el núcleo espinal subyacente recibe estas sinapsis. Las neuronas de segundo orden cruzan la línea media y ascienden como lemnisco trigeminal hacia el núcleo ventral posteromedial del tálamo contralateral."
   },
   {
     "svg_id": "pedunculo_cerebeloso_inferior_derecho",
     "name": "Pedúnculo cerebeloso inferior derecho",
-    "description": ""
+    "description": "Conecta la médula oblongada y la médula espinal con el cerebelo derecho, transportando como principal vía aferente las fibras del tracto espinocerebeloso posterior ipsilateral y las fibras olivocerebelosas cruzadas procedentes del núcleo olivar inferior izquierdo. Sus componentes eferentes incluyen fibras cerebelovestibulares y cerebelorreticulares que regulan el tono muscular y el equilibrio."
   },
   {
     "svg_id": "pedunculo_cerebeloso_inferior_izquierdo",
     "name": "Pedúnculo cerebeloso inferior izquierdo",
-    "description": ""
+    "description": "Conecta la médula oblongada y la médula espinal con el cerebelo izquierdo, transportando como principal vía aferente las fibras del tracto espinocerebeloso posterior ipsilateral y las fibras olivocerebelosas cruzadas procedentes del núcleo olivar inferior derecho. Sus componentes eferentes incluyen fibras cerebelovestibulares y cerebelorreticulares que regulan el tono muscular y el equilibrio."
   },
   {
     "svg_id": "nucleo_coclear_anterior_derecho",
     "name": "Núcleo coclear anterior derecho",
-    "description": ""
+    "description": "Situado en la cara ventral del pedúnculo cerebeloso inferior derecho, recibe la mayor parte de las fibras de la división coclear del VIII par para el análisis espectral del sonido. Sus axones cruzan la línea media en el cuerpo trapezoide para hacer sinapsis en el complejo olivar superior y el lemnisco lateral contralateral, ascendiendo hacia el colículo inferior."
   },
   {
     "svg_id": "nucleo_coclear_anterior_izquierdo",
     "name": "Núcleo coclear anterior izquierdo",
-    "description": ""
+    "description": "Situado en la cara ventral del pedúnculo cerebeloso inferior izquierdo, recibe la mayor parte de las fibras de la división coclear del VIII par para el análisis espectral del sonido. Sus axones cruzan la línea media en el cuerpo trapezoide para hacer sinapsis en el complejo olivar superior y el lemnisco lateral contralateral, ascendiendo hacia el colículo inferior."
   },
   {
     "svg_id": "nucleo_olivar_accesorio_dorsal_derecho",
     "name": "Núcleo olivar accesorio dorsal derecho",
-    "description": ""
+    "description": "Lámina nuclear situada dorsal al núcleo olivar inferior principal derecho, con el que comparte aferencias corticales y espinales. Emite fibras olivocerebelosas que cruzan la línea media para alcanzar zonas específicas del cerebelo izquierdo por el pedúnculo cerebeloso inferior, contribuyendo a la señalización de errores en el aprendizaje motor."
   },
   {
     "svg_id": "nucleo_olivar_accesorio_dorsal_izquierdo",
     "name": "Núcleo olivar accesorio dorsal izquierdo",
-    "description": ""
+    "description": "Lámina nuclear situada dorsal al núcleo olivar inferior principal izquierdo, con el que comparte aferencias corticales y espinales. Emite fibras olivocerebelosas que cruzan la línea media para alcanzar zonas específicas del cerebelo derecho por el pedúnculo cerebeloso inferior, contribuyendo a la señalización de errores en el aprendizaje motor."
   },
   {
     "svg_id": "nucleo_olivar_accesorio_medial_derecho",
     "name": "Núcleo olivar accesorio medial derecho",
-    "description": ""
+    "description": "Lámina nuclear situada medialmente al hilio del núcleo olivar inferior principal derecho, recibe aferencias de la médula espinal y la corteza. Sus fibras olivocerebelosas cruzan la línea media para ascender al hemisferio cerebeloso izquierdo a través del pedúnculo cerebeloso inferior, participando en la coordinación del movimiento y el ajuste motor adaptativo."
   },
   {
     "svg_id": "nucleo_olivar_accesorio_medial_izquierdo",
     "name": "Núcleo olivar accesorio medial izquierdo",
-    "description": ""
+    "description": "Lámina nuclear situada medialmente al hilio del núcleo olivar inferior principal izquierdo, recibe aferencias de la médula espinal y la corteza. Sus fibras olivocerebelosas cruzan la línea media para ascender al hemisferio cerebeloso derecho a través del pedúnculo cerebeloso inferior, participando en la coordinación del movimiento y el ajuste motor adaptativo."
   },
   {
     "svg_id": "piramide",
     "name": "Pirámide",
-    "description": ""
+    "description": "Prominencia longitudinal de la cara anterior de la médula oblongada formada por el tracto corticoespinal descendente, vía final común del control motor voluntario desde la corteza cerebral. En la unión bulboespinal, la mayor parte de sus fibras cruzan en la decusación de las pirámides para formar el tracto corticoespinal lateral contralateral, responsable del control fino de los movimientos distales de las extremidades."
   },
   {
     "svg_id": "lemnisco_medial_derecho",
     "name": "Lemnisco medial derecho",
-    "description": ""
+    "description": "Formado por los axones cruzados de las neuronas de los núcleos grácil y cuneiforme izquierdos, asciende por el tegmento derecho del tronco encefálico conduciendo sensibilidad propioceptiva consciente, táctil discriminativa y vibratoria del hemicuerpo izquierdo. Termina en el núcleo ventral posterolateral del tálamo derecho, desde donde la información se proyecta a la corteza somatosensitiva primaria."
   },
   {
     "svg_id": "lemnisco_medial_izquierdo",
     "name": "Lemnisco medial izquierdo",
-    "description": ""
+    "description": "Formado por los axones cruzados de las neuronas de los núcleos grácil y cuneiforme derechos, asciende por el tegmento izquierdo del tronco encefálico conduciendo sensibilidad propioceptiva consciente, táctil discriminativa y vibratoria del hemicuerpo derecho. Termina en el núcleo ventral posterolateral del tálamo izquierdo, desde donde la información se proyecta a la corteza somatosensitiva primaria."
   },
   {
     "svg_id": "nucleo_sensitivo_principal_derecho_nervio_trigemino",
     "name": "Núcleo sensitivo principal derecho del nervio trigémino",
-    "description": ""
+    "description": "Situado en el tegmento del puente derecho lateral al núcleo motor del trigémino, recibe fibras de gran diámetro del nervio trigémino que conducen tacto discriminativo y presión de la hemicara derecha. Sus neuronas de segundo orden se proyectan al núcleo ventral posteromedial del tálamo contralateral a través del lemnisco trigeminal cruzado, y una pequeña porción asciende ipsilateralmente."
   },
   {
     "svg_id": "nucleo_sensitivo_principal_izquierdo_del_nervio_trigémino",
     "name": "Núcleo sensitivo principal izquierdo del nervio trigémino",
-    "description": ""
+    "description": "Situado en el tegmento del puente izquierdo lateral al núcleo motor del trigémino, recibe fibras de gran diámetro del nervio trigémino que conducen tacto discriminativo y presión de la hemicara izquierda. Sus neuronas de segundo orden se proyectan al núcleo ventral posteromedial del tálamo contralateral a través del lemnisco trigeminal cruzado, y una pequeña porción asciende ipsilateralmente."
   },
   {
     "svg_id": "nucleo_motor_derecho_del_nervio_trigemino",
     "name": "Núcleo motor derecho del nervio trigémino",
-    "description": ""
+    "description": "Situado en el tegmento del puente derecho, medial al núcleo sensitivo principal, sus axones forman la raíz motora del nervio trigémino (V par) que inerva los músculos masticadores, el tensor del tímpano, el tensor del velo del paladar, el milohioideo y el vientre anterior del digástrico ipsilaterales. Recibe proyecciones corticonucleares bilaterales y colaterales del núcleo mesencefálico del trigémino para el reflejo mandibular."
   },
   {
     "svg_id": "nucleo_motor_izquierdo_del_nervio_trigemino",
     "name": "Núcleo motor izquierdo del nervio trigémino",
-    "description": ""
+    "description": "Situado en el tegmento del puente izquierdo, medial al núcleo sensitivo principal, sus axones forman la raíz motora del nervio trigémino (V par) que inerva los músculos masticadores, el tensor del tímpano, el tensor del velo del paladar, el milohioideo y el vientre anterior del digástrico ipsilaterales. Recibe proyecciones corticonucleares bilaterales y colaterales del núcleo mesencefálico del trigémino para el reflejo mandibular."
   },
   {
     "svg_id": "pedunculo_cerebelar_superior_izquierdo",
     "name": "Pedúnculo cerebelar superior izquierdo",
-    "description": ""
+    "description": "Principal vía eferente del cerebelo izquierdo, formada en su mayor parte por axones del núcleo dentado izquierdo que emergen del hilio y cruzan completamente la línea media en la decusación de los pedúnculos cerebelosos superiores en el mesencéfalo. Las fibras ascienden para hacer sinapsis en el núcleo rojo contralateral y el núcleo ventrolateral del tálamo derecho, coordinando la motricidad voluntaria del hemicuerpo derecho."
   },
   {
     "svg_id": "pedunculo_cerebelar_superior_derecho",
     "name": "Pedúnculo cerebelar superior derecho",
-    "description": ""
+    "description": "Principal vía eferente del cerebelo derecho, formada en su mayor parte por axones del núcleo dentado derecho que emergen del hilio y cruzan completamente la línea media en la decusación de los pedúnculos cerebelosos superiores en el mesencéfalo. Las fibras ascienden para hacer sinapsis en el núcleo rojo contralateral y el núcleo ventrolateral del tálamo izquierdo, coordinando la motricidad voluntaria del hemicuerpo izquierdo."
   },
   {
     "svg_id": "lemnisco_espinal_derecho",
     "name": "Lemnisco espinal derecho",
-    "description": ""
+    "description": "Componente del sistema anterolateral situado en el tegmento derecho del tronco encefálico, formado por los tractos espinotalámico lateral y anterior derechos que conducen dolor, temperatura y tacto burdo del hemicuerpo izquierdo. Asciende adyacente al lemnisco medial derecho para alcanzar el núcleo ventral posterolateral del tálamo derecho y los núcleos intralaminares."
   },
   {
     "svg_id": "lemnisco_espinal_izquierdo",
     "name": "Lemnisco espinal izquierdo",
-    "description": ""
+    "description": "Componente del sistema anterolateral situado en el tegmento izquierdo del tronco encefálico, formado por los tractos espinotalámico lateral y anterior izquierdos que conducen dolor, temperatura y tacto burdo del hemicuerpo derecho. Asciende adyacente al lemnisco medial izquierdo para alcanzar el núcleo ventral posterolateral del tálamo izquierdo y los núcleos intralaminares."
   }
 ]
