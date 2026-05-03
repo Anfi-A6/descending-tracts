@@ -2,84 +2,73 @@
 import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
-import coliculo_s from "@images/coliculo_superior.svg?raw"
 
 export const getStaticPaths = (async () => {
-const levels =  await getCollection('levels')
-  
-
-
-return levels.map((level) => {
-  
-  return {
-    params: { id: level.id},
-    props: { level }
-  }
-})
-
+  const levels = await getCollection("levels");
+  return levels.map((level) => ({
+    params: { id: level.id },
+    props: { level },
+  }));
 }) satisfies GetStaticPaths;
 
-const { level } = Astro.props
-const allSvgs = import.meta.glob("../../img/*.svg",
-  {
-    query: "?raw",
-    import: "default"
-  }
-)
+const { level } = Astro.props;
 
-const svgPath = level.data.svgPath ? `/src/img/${level.data.svgPath}` : null;
-
-// Find the matching key dynamically
-const svgKey = svgPath ? Object.keys(allSvgs).find(key => key.endsWith(level.data.svgPath)) : null;
+// Load SVG content
+const allSvgs = import.meta.glob("../../img/*.svg", {
+  query: "?raw",
+  import: "default",
+});
+const svgKey = level.data.svgPath
+  ? Object.keys(allSvgs).find((key) => key.endsWith(level.data.svgPath))
+  : null;
 const svgContent = svgKey ? await allSvgs[svgKey]() : null;
 
-const sortedStructures = [...level.data.structures].sort((a, b) => {
-  if(a.id < b.id){
-    return -1;
-  } else {
-    return 1;
-  }
-})
+// Sort structures by id
+const sortedStructures = [...level.data.structures].sort((a, b) =>
+  a.id < b.id ? -1 : 1
+);
 
 const imageUrl = level.data.imgUrl.src;
 ---
 
 <Layout pageTitle={level.data.name}>
   <div class="w-full px-2 sm:px-4 md:px-8 py-6 sm:py-8">
-    <!-- Responsive Card Section -->
+
     {imageUrl && (
       <>
+        <!-- Main Card -->
         <div class="flex justify-center mb-8" transition:animate="slide">
           <div class="card bg-base-100 shadow-xl w-full max-w-5xl lg:card-side">
-            <!-- Image Section -->
+
+            <!-- Image + SVG Overlay -->
             <figure class="w-full lg:w-2/5 flex-shrink-0">
               <div class="relative w-full flex items-center justify-center bg-gray-50">
-                <img 
+                <img
                   id="mainImage"
-                  src={imageUrl} 
+                  src={imageUrl}
                   alt={level.data.name}
                   class="w-full h-auto cursor-pointer hover:opacity-95 transition-opacity z-0"
                 />
-                <div class="svg-overlay absolute inset-0" set:html={svgContent}></div>
+                <div class="svg-overlay absolute inset-0" set:html={svgContent} />
               </div>
             </figure>
 
-            <!-- Card Body Section -->
+            <!-- Card Body -->
             <div class="card-body w-full lg:w-3/5 justify-between">
               <div>
                 <h2 id="cardTitle" class="card-title text-2xl sm:text-3xl text-gray-900">
                   Selecciona una estructura para continuar
                 </h2>
               </div>
-
-              <!-- Expand Button -->
               <div class="card-actions justify-start mt-4">
-                <button 
+                <button
                   id="expandBtn"
                   class="btn btn-primary flex items-center gap-2"
-                  aria-label="Expand image"
+                  aria-label="Ampliar imagen"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M7 17h3q.425 0 .713.288T11 18t-.288.713T10 19H6q-.425 0-.712-.288T5 18v-4q0-.425.288-.712T6 13t.713.288T7 14zM17 7h-3q-.425 0-.712-.288T13 6t.288-.712T14 5h4q.425 0 .713.288T19 6v4q0 .425-.288.713T18 11t-.712-.288T17 10z"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M7 17h3q.425 0 .713.288T11 18t-.288.713T10 19H6q-.425 0-.712-.288T5 18v-4q0-.425.288-.712T6 13t.713.288T7 14zM17 7h-3q-.425 0-.712-.288T13 6t.288-.712T14 5h4q.425 0 .713.288T19 6v4q0 .425-.288.713T18 11t-.712-.288T17 10z"/>
+                  </svg>
                   Ampliar
                 </button>
               </div>
@@ -87,22 +76,21 @@ const imageUrl = level.data.imgUrl.src;
           </div>
         </div>
 
-        <!-- Modal -->
-        <div 
+        <!-- Fullscreen Modal -->
+        <div
           id="imageModal"
           class="hidden fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4 cursor-pointer"
         >
           <button
             id="closeBtn"
             class="absolute top-4 right-4 text-white hover:bg-gray-700 rounded-full p-2 transition-colors duration-200"
-            aria-label="Close modal"
+            aria-label="Cerrar"
           >
             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
-          <img 
-            id="modalImage"
+          <img
             src={imageUrl}
             alt={level.data.name}
             class="max-w-5xl max-h-[85vh] w-auto h-auto object-contain rounded-lg shadow-2xl"
@@ -110,13 +98,13 @@ const imageUrl = level.data.imgUrl.src;
         </div>
       </>
     )}
-    
-    <!-- Structures List Section -->
+
+    <!-- Structures List -->
     <div class="max-w-4xl mx-auto">
       <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-2 sm:mb-3">Estructuras</h2>
       <p class="text-gray-600 text-sm sm:text-base mb-6 sm:mb-8">Componentes anatómicos identificados</p>
       <div class="space-y-2 sm:space-y-3">
-        {sortedStructures.map((structure, index) => (
+        {sortedStructures.map((structure) => (
           <div class="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-lg bg-white border border-gray-200 hover:border-uaslp hover:shadow-md transition-all duration-200 group cursor-pointer">
             <span class="shrink-0 inline-flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 bg-uaslp text-white rounded-full text-xs sm:text-sm font-bold group-hover:scale-110 transition-transform duration-200">
               {structure.id}
@@ -128,168 +116,141 @@ const imageUrl = level.data.imgUrl.src;
         ))}
       </div>
     </div>
+
   </div>
+</Layout>
 
-  <script>
-    const modal = document.getElementById('imageModal');
-    const expandBtn = document.getElementById('expandBtn');
-    const closeBtn = document.getElementById('closeBtn');
-    const mainImage = document.getElementById('mainImage');
-    const cardTitle = document.getElementById('cardTitle');
+<script>
+  import structures from "../../data/structures.json";
 
-    expandBtn?.addEventListener('click', () => {
-      modal?.classList.remove('hidden');
-      document.body.style.overflow = 'hidden';
+  // ─── Types ───────────────────────────────────────────────────────────────────
+
+  type Structure = { svg_id: string; name: string; description: string };
+
+  // ─── Lookup ──────────────────────────────────────────────────────────────────
+
+  function getStructure(svgId: string): Structure | undefined {
+    return (structures as Structure[]).find((s) => s.svg_id === svgId);
+  }
+
+  // Walk up the DOM from the clicked element to find the nearest
+  // meaningful <g> with a valid id, stopping at the svg-overlay boundary.
+  function getStructureElement(el: Element): Element | null {
+    const excludeIds = new Set(["svg1", "layer1", "defs1", "defs"]);
+
+    let current: Element | null = el;
+    while (current && !current.classList.contains("svg-overlay")) {
+      if (
+        current.tagName.toLowerCase() === "g" &&
+        current.id &&
+        !excludeIds.has(current.id)
+      ) {
+        return current;
+      }
+      current = current.parentElement;
+    }
+
+    // Fallback: the clicked element itself
+    if (el.id && !excludeIds.has(el.id)) return el;
+
+    return null;
+  }
+
+  // ─── UI state ────────────────────────────────────────────────────────────────
+
+  let selectedElement: Element | null = null;
+
+  function selectStructure(el: Element) {
+    selectedElement?.classList.remove("selected");
+    el.classList.add("selected");
+    selectedElement = el;
+
+    const structure = getStructure(el.id);
+    const cardTitle = document.getElementById("cardTitle");
+    if (cardTitle) {
+      cardTitle.textContent = structure?.name ?? el.id;
+    }
+  }
+
+  // ─── Event listeners ─────────────────────────────────────────────────────────
+
+  function init() {
+    const modal      = document.getElementById("imageModal");
+    const expandBtn  = document.getElementById("expandBtn");
+    const closeBtn   = document.getElementById("closeBtn");
+    const svgOverlay = document.querySelector(".svg-overlay");
+
+    // Modal open
+    expandBtn?.addEventListener("click", () => {
+      modal?.classList.remove("hidden");
+      document.body.style.overflow = "hidden";
     });
 
-    closeBtn?.addEventListener('click', (e) => {
+    // Modal close — button
+    closeBtn?.addEventListener("click", (e) => {
       e.stopPropagation();
-      modal?.classList.add('hidden');
-      document.body.style.overflow = 'auto';
+      modal?.classList.add("hidden");
+      document.body.style.overflow = "auto";
     });
 
-    modal?.addEventListener('click', (e) => {
+    // Modal close — backdrop click
+    modal?.addEventListener("click", (e) => {
       if (e.target === modal) {
-        modal.classList.add('hidden');
-        document.body.style.overflow = 'auto';
+        modal.classList.add("hidden");
+        document.body.style.overflow = "auto";
       }
     });
 
-let selectedElement = null;
-
-function formatName(id) {
-  return id
-    .replaceAll("_", " ")
-    .replace(/\b\w/g, (char) => char.toUpperCase());
-}
-
-function getStructureElement(el) {
-  const excludeIds = ['svg1', 'layer1', 'defs1', 'defs'];
-
-  // First: look upward for the nearest <g> with a valid ID
-  let current = el;
-
-  while (current && !current.classList?.contains('svg-overlay')) {
-    if (
-      current.tagName?.toLowerCase() === "g" &&
-      current.id &&
-      !excludeIds.includes(current.id)
-    ) {
-      return current;
-    }
-
-    current = current.parentElement;
+    // SVG structure selection
+    svgOverlay?.addEventListener("click", (e) => {
+      const target = getStructureElement(e.target as Element);
+      if (target) selectStructure(target);
+    });
   }
 
-  // Fallback: if no group found, use the clicked element itself
-  if (
-    el.id &&
-    !excludeIds.includes(el.id)
-  ) {
-    return el;
-  }
-
-  return null;
-}
-
-function initializeEventListeners() {
-  const modal = document.getElementById('imageModal');
-  const expandBtn = document.getElementById('expandBtn');
-  const closeBtn = document.getElementById('closeBtn');
-  const svgOverlay = document.querySelector(".svg-overlay");
-  const cardTitle = document.getElementById('cardTitle');
-
-  expandBtn?.addEventListener('click', () => {
-    modal?.classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
-  });
-
-  closeBtn?.addEventListener('click', (e) => {
-    e.stopPropagation();
-    modal?.classList.add('hidden');
-    document.body.style.overflow = 'auto';
-  });
-
-  modal?.addEventListener('click', (e) => {
-    if (e.target === modal) {
-      modal.classList.add('hidden');
-      document.body.style.overflow = 'auto';
-    }
-  });
-
-  svgOverlay?.addEventListener("click", (e) => {
-    const target = getStructureElement(e.target);
-    
-    if (!target) return;
-    
-    // Remove previous selection
-    if (selectedElement) {
-      selectedElement.classList.remove("selected");
-    }
-
-    // Add current selection
-    target.classList.add("selected");
-    selectedElement = target;
-
-    // Human-readable name
-    const readableName = formatName(target.id);
-
-    // Update card title
-    if (cardTitle) {
-      cardTitle.textContent = readableName;
-    }
-  });
-}
-
-// Initialize on page load
-initializeEventListeners();
-
-// Re-initialize after view transitions
-document.addEventListener('astro:after-swap', () => {
-  initializeEventListeners();
-});
-  </script>
+  // Run on first load and after every view transition swap
+  init();
+  document.addEventListener("astro:after-swap", init);
+</script>
 
 <style is:global>
-.svg-overlay {
-  pointer-events: auto;
-  width: 100%;
-  height: 100%;
-}
+  .svg-overlay {
+    pointer-events: auto;
+    width: 100%;
+    height: 100%;
+  }
 
-.svg-overlay svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-  pointer-events: auto;
-  cursor: pointer;
-}
+  .svg-overlay svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: auto;
+    cursor: pointer;
+  }
 
-.svg-overlay path,
-.svg-overlay ellipse,
-.svg-overlay rect,
-.svg-overlay g {
-  fill: transparent !important;
-  stroke: transparent !important;
-  transition: fill 0.2s ease, stroke 0.2s ease;
-}
+  .svg-overlay path,
+  .svg-overlay ellipse,
+  .svg-overlay rect,
+  .svg-overlay g {
+    fill: transparent !important;
+    stroke: transparent !important;
+    transition: fill 0.2s ease, stroke 0.2s ease;
+  }
 
-.svg-overlay path.selected,
-.svg-overlay ellipse.selected,
-.svg-overlay rect.selected,
-.svg-overlay g.selected {
-  fill: rgba(0, 169, 254, 0.35) !important;
-  stroke: rgba(0, 169, 254) !important;
-  stroke-width: 2;
-}
+  .svg-overlay path.selected,
+  .svg-overlay ellipse.selected,
+  .svg-overlay rect.selected,
+  .svg-overlay g.selected {
+    fill: rgba(0, 169, 254, 0.35) !important;
+    stroke: rgba(0, 169, 254, 1) !important;
+    stroke-width: 2;
+  }
 
-.svg-overlay g.selected path,
-.svg-overlay g.selected ellipse,
-.svg-overlay g.selected rect{
-  fill: rgba(0, 169, 254, 0.35) !important;
-  stroke: rgb(0, 169, 254) !important;
-  stroke-width: 2;
-}
+  .svg-overlay g.selected path,
+  .svg-overlay g.selected ellipse,
+  .svg-overlay g.selected rect {
+    fill: rgba(0, 169, 254, 0.35) !important;
+    stroke: rgb(0, 169, 254) !important;
+    stroke-width: 2;
+  }
 </style>
-
-</Layout>

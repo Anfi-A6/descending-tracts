@@ -1,0 +1,577 @@
+[
+  {
+    "svg_id": "pedunculos_cerebelosos_superiores",
+    "name": "Pedúnculos cerebelosos superiores",
+    "description": ""
+  },
+  {
+    "svg_id": "cavidad_del_cuarto_ventriculo",
+    "name": "Cavidad del cuarto ventrículo",
+    "description": ""
+  },
+  {
+    "svg_id": "pedunculos_cerebelosos_inferiores",
+    "name": "Pedúnculos cerebelosos inferiores",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_vestibulares",
+    "name": "Núcleos vestibulares",
+    "description": ""
+  },
+  {
+    "svg_id": "fasciculo_longitudinal_medial",
+    "name": "Fascículo longitudinal medial",
+    "description": ""
+  },
+  {
+    "svg_id": "lemniscos_mediales",
+    "name": "Lemniscos mediales",
+    "description": ""
+  },
+  {
+    "svg_id": "cuerpo_trapezoide",
+    "name": "Cuerpo trapezoide",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_y_nucleos_espinales_del_trigemino",
+    "name": "Tractos y núcleos espinales del trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_del_nervio_abducens",
+    "name": "Núcleos del nervio abducens",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_del_nervio_facial",
+    "name": "Núcleos del nervio facial",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_pontinos",
+    "name": "Núcleos pontinos",
+    "description": ""
+  },
+  {
+    "svg_id": "haces_de_fibras_corticoespinales_y_corticonucleares",
+    "name": "Haces de fibras corticoespinales y corticonucleares",
+    "description": ""
+  },
+  {
+    "svg_id": "fibras_pontinas_transversas",
+    "name": "Fibras pontinas transversas",
+    "description": ""
+  },
+  {
+    "svg_id": "coliculo_inferior",
+    "name": "Colículo inferior",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_de_los_nervios_trocleares",
+    "name": "Núcleos de los nervios trocleares",
+    "description": ""
+  },
+  {
+    "svg_id": "lemniscos__LTEM_",
+    "name": "Lemniscos (LTEM)",
+    "description": ""
+  },
+  {
+    "svg_id": "sustancia_negra",
+    "name": "Sustancia negra",
+    "description": ""
+  },
+  {
+    "svg_id": "pie_peduncular",
+    "name": "Pie peduncular",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_mesencefalicos_del_trigemino",
+    "name": "Núcleos mesencefálicos del trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "decusacion_de_los_pedunculos_cerebelosos_superiores",
+    "name": "Decusación de los pedúnculos cerebelosos superiores",
+    "description": ""
+  },
+  {
+    "svg_id": "sustancia_gris_central",
+    "name": "Sustancia gris central",
+    "description": ""
+  },
+  {
+    "svg_id": "acueducto_mesencefalico",
+    "name": "Acueducto mesencefálico",
+    "description": ""
+  },
+  {
+    "svg_id": "coliculo_superior_derecho",
+    "name": "Colículo superior derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "coliculo_superior_izquierdo",
+    "name": "Colículo superior izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "lemniscos_izquierdos",
+    "name": "Lemniscos izquierdos",
+    "description": ""
+  },
+  {
+    "svg_id": "lemniscos_derechos",
+    "name": "Lemniscos derechos",
+    "description": ""
+  },
+  {
+    "svg_id": "fasciculo_longitudinal_medial_derecho",
+    "name": "Fascículo longitudinal medial derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "fasciculo_longitudinal_medial_izquierdo",
+    "name": "Fascículo longitudinal medial izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_rojo_derecho",
+    "name": "Núcleo rojo derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_rojo_izquierdo",
+    "name": "Núcleo rojo izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_derecho_del_nervio_oculomotor",
+    "name": "Núcleo derecho del nervio oculomotor",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_izquierdo_del_nervio_oculomotor",
+    "name": "Núcleo izquierdo del nervio oculomotor",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_mesencefalico_del_trigemino_derecho",
+    "name": "Núcleo mesencefálico derecho del trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_mesencefalico_del_trigemino_izquierdo",
+    "name": "Núcleo mesencefálico izquierdo del trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "sustancia_gris_central",
+    "name": "Sustancia gris central",
+    "description": ""
+  },
+  {
+    "svg_id": "sustancia_negra_derecha",
+    "name": "Sustancia negra derecha",
+    "description": ""
+  },
+  {
+    "svg_id": "sustancia_negra_izquierda",
+    "name": "Sustancia negra izquierda",
+    "description": ""
+  },
+  {
+    "svg_id": "pie_del_pedunculo_izquierdo",
+    "name": "Pie del pedúnculo izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "decusacion_de_los_lemniscos",
+    "name": "Decusación de los lemniscos",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_arcuatos",
+    "name": "Núcleos arcuatos",
+    "description": ""
+  },
+  {
+    "svg_id": "piramides",
+    "name": "Piramides",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_olivares_inferiores",
+    "name": "Núcleos olivares inferiores",
+    "description": ""
+  },
+  {
+    "svg_id": "lemnisco_medial",
+    "name": "Lemnisco medial",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_tectoespinal",
+    "name": "Tracto tectoespinal",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_vagales_dorsales",
+    "name": "Núcleos vagales dorsales",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_hipoglosos",
+    "name": "Núcleos hipoglosos",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_vestibulares_mediales",
+    "name": "Núcleos vestibulares mediales",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_vestibulares_laterales",
+    "name": "Núcleos vestibulares laterales",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_cocleares_posteriores",
+    "name": "Núcleos cocleares posteriores",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_ambiguos",
+    "name": "Núcleos ambiguos",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_cocleares_anteriores",
+    "name": "Núcleos cocleares anteriores",
+    "description": ""
+  },
+  {
+    "svg_id": "tractos_espinocerebelosos_anteriores",
+    "name": "Tractos espinocerebelosos anteriores",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_olivares_accesorios_dorsales",
+    "name": "Núcleos olivares accesorios dorsales",
+    "description": ""
+  },
+  {
+    "svg_id": "tractos_espinotalamicos_laterales",
+    "name": "Tractos espinotálamicos laterales",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_olivares_accesorios_mediales",
+    "name": "Núcleos olivares accesorios mediales",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_espinal_derecho_del_trigemino",
+    "name": "Núcleo espinal derecho del trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_espinal_izquierdo_del_trigemino",
+    "name": "Núcleo espinal izquierdo del trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "piramide_derecha",
+    "name": "Pirámide derecha",
+    "description": ""
+  },
+  {
+    "svg_id": "piramide_izquierda",
+    "name": "Pirámide izquierda",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_olivar_inferior_derecho",
+    "name": "Núcleo olivar inferior derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_olivar_inferior_izquierdo",
+    "name": "Núcleo olivar inferior izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_derecho_del_nervio_accesorio",
+    "name": "Núcleo derecho del nervio accesorio",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_izquierdo_del_nervio_accesorio",
+    "name": "Núcleo izquierdo del nervio accesorio",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_gracil_izquierdo",
+    "name": "Núcleo grácil izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_gracil_derecho",
+    "name": "Núcleo grácil derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_cuneiforme_derecho",
+    "name": "Núcleo cuneiforme derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_cuneiforme_izquierdo",
+    "name": "Núcleo cuneiforme izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "conducto_central",
+    "name": "Conducto central",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_hipogloso_derecho",
+    "name": "Núcleo hipogloso derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_hipogloso_izquierdo",
+    "name": "Núcleo hipogloso izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "fibras_arcuatas_internas_derechas",
+    "name": "Fibras arcuatas internas derechas",
+    "description": ""
+  },
+  {
+    "svg_id": "fibras_arcuatas_internas_izquierdas",
+    "name": "Fibras arcuatas internas izquierdas",
+    "description": ""
+  },
+  {
+    "svg_id": "decusacion_de_los_lemniscos_mediales",
+    "name": "Decusación de los lemniscos mediales",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_espinotalamico_lateral_derecho",
+    "name": "Tracto espinotálamico lateral derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_espinotalamico_lateral_izquierdo",
+    "name": "Tracto espinotálamico lateral izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_espinocerebeloso_posterior_derecho",
+    "name": "Tracto espinocerebeloso posterior derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_espinocerebeloso_posterior_izquierdo",
+    "name": "Tracto espinocerebeloso posterior izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_espinocerebeloso_anterior_derecho",
+    "name": "Tracto espinocerebeloso anterior derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_espinocerebeloso_anterior_izquierdo",
+    "name": "Tracto espinocerebeloso anterior izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_espinales_del_trigemino",
+    "name": "Núcleos espinales del trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "tractos_espinotalamicos",
+    "name": "Tractos espinotálamicos",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_espinocerebeloso_posterior",
+    "name": "Tracto espinocerebeloso posterior",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_espinocerebeloso_anterior",
+    "name": "Tracto espinocerebeloso anterior",
+    "description": ""
+  },
+  {
+    "svg_id": "decusacion_de_las_piramides",
+    "name": "Decusación de las pirámides",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleos_gracil_y_cuneiforme",
+    "name": "Núcleos grácil y cuneiforme",
+    "description": ""
+  },
+  {
+    "svg_id": "tractos_espinales_del_trigemino",
+    "name": "Tractos espinales del trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_vestibular_inferior_derecho",
+    "name": "Núcleo vestibular inferior derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_vestibular_inferior_izquierdo",
+    "name": "Núcleo vestibular inferior izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_derecho_del_tracto_solitario",
+    "name": "Núcleo derecho del tracto solitario",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_izquierdo_del_tracto_solitario",
+    "name": "Núcleo izquierdo del tracto solitario",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_vestibular_medial_derecho",
+    "name": "Núcleo vestibular medial derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_vestibular_medial_izquierdo",
+    "name": "Núcleo vestibular medial izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_coclear_posterior_derecho",
+    "name": "Núcleo coclear posterior derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_coclear_posterior_izquierdo",
+    "name": "Núcleo coclear posterior izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_y_nucleos_espinales_derechos_del_trigemino",
+    "name": "Tracto y núcleo espinal derecho del trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "tracto_y_nucleos_espinales_izquierdos_del_trigemino",
+    "name": "Tracto y núcleo espinal izquierdo del trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "pedunculo_cerebeloso_inferior_derecho",
+    "name": "Pedúnculo cerebeloso inferior derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "pedunculo_cerebeloso_inferior_izquierdo",
+    "name": "Pedúnculo cerebeloso inferior izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_coclear_anterior_derecho",
+    "name": "Núcleo coclear anterior derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_coclear_anterior_izquierdo",
+    "name": "Núcleo coclear anterior izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_olivar_accesorio_dorsal_derecho",
+    "name": "Núcleo olivar accesorio dorsal derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_olivar_accesorio_dorsal_izquierdo",
+    "name": "Núcleo olivar accesorio dorsal izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_olivar_accesorio_medial_derecho",
+    "name": "Núcleo olivar accesorio medial derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_olivar_accesorio_medial_izquierdo",
+    "name": "Núcleo olivar accesorio medial izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "piramide",
+    "name": "Pirámide",
+    "description": ""
+  },
+  {
+    "svg_id": "lemnisco_medial_derecho",
+    "name": "Lemnisco medial derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "lemnisco_medial_izquierdo",
+    "name": "Lemnisco medial izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_sensitivo_principal_derecho_nervio_trigemino",
+    "name": "Núcleo sensitivo principal derecho del nervio trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_sensitivo_principal_izquierdo_del_nervio_trigémino",
+    "name": "Núcleo sensitivo principal izquierdo del nervio trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_motor_derecho_del_nervio_trigemino",
+    "name": "Núcleo motor derecho del nervio trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "nucleo_motor_izquierdo_del_nervio_trigemino",
+    "name": "Núcleo motor izquierdo del nervio trigémino",
+    "description": ""
+  },
+  {
+    "svg_id": "pedunculo_cerebelar_superior_izquierdo",
+    "name": "Pedúnculo cerebelar superior izquierdo",
+    "description": ""
+  },
+  {
+    "svg_id": "pedunculo_cerebelar_superior_derecho",
+    "name": "Pedúnculo cerebelar superior derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "lemnisco_espinal_derecho",
+    "name": "Lemnisco espinal derecho",
+    "description": ""
+  },
+  {
+    "svg_id": "lemnisco_espinal_izquierdo",
+    "name": "Lemnisco espinal izquierdo",
+    "description": ""
+  }
+]
