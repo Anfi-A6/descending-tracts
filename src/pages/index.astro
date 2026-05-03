@@ -15,7 +15,6 @@ const teamMembers = [
   "Hernandez Lara Aram",
 ]
 
-// Replace these with your actual 3D model image paths
 const modelImages = [
   { src: generalAnterior.src, alt: "Vista general anterior del modelo" },
   { src: generalLateral.src, alt: "Vista general lateral" },
@@ -28,14 +27,14 @@ const modelImages = [
   <div class="hero min-h-[40vh] rounded-box bg-base-200 mb-8">
     <div class="hero-content text-center">
       <div class="max-w-2xl">
-        <div class="badge badge-primary badge-outline mb-4">Mesa 6 Anfiteatro</div>
-        <h1 class="text-4xl font-bold mb-4">Vías Descendentes del Tronco Encefálico</h1>
-        <p class="text-base-content/70 text-lg mb-6">
+        <div class="badge badge-primary badge-outline mb-4 gs-hero-badge">Mesa 6 Anfiteatro</div>
+        <h1 class="text-4xl font-bold mb-4 gs-hero-title">Vías Descendentes del Tronco Encefálico</h1>
+        <p class="text-base-content/70 text-lg mb-6 gs-hero-sub">
           Explora las estructuras de las vías de salida del puente y mesencéfalo a través
           de nuestro modelo tridimensional interactivo. Haz clic sobre cualquier estructura
           en los cortes para identificarla.
         </p>
-        <a href="#niveles" class="btn btn-primary">
+        <a href="#niveles" class="btn btn-primary gs-hero-btn">
           Explorar niveles
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -46,11 +45,11 @@ const modelImages = [
   </div>
 
   <!-- Carousel -->
-  <div class="mb-10">
+  <div class="mb-10 gs-section">
     <h2 class="text-2xl font-bold mb-4">Nuestro Modelo</h2>
     <div class="carousel carousel-center w-full rounded-box space-x-4 bg-base-200 p-4">
       {modelImages.map((img, i) => (
-        <div class="carousel-item">
+        <div class="carousel-item gs-card">
           <div class="card bg-base-100 w-72 shadow-md">
             <figure class="h-48 bg-base-300">
               <img
@@ -70,22 +69,22 @@ const modelImages = [
   </div>
 
   <!-- How to use -->
-  <div class="mb-10" id="niveles">
+  <div class="mb-10 gs-section" id="niveles">
     <h2 class="text-2xl font-bold mb-4">¿Cómo usar este sitio?</h2>
     <div class="steps steps-vertical lg:steps-horizontal w-full">
-      <div class="step step-primary">
+      <div class="step step-primary gs-step">
         <div class="step-content text-left ml-2 lg:ml-0 lg:mt-2">
           <p class="font-semibold text-sm">Selecciona un nivel</p>
           <p class="text-xs text-base-content/60">Usa el menú de navegación superior</p>
         </div>
       </div>
-      <div class="step step-primary">
+      <div class="step step-primary gs-step">
         <div class="step-content text-left ml-2 lg:ml-0 lg:mt-2">
           <p class="font-semibold text-sm">Haz clic en la imagen</p>
           <p class="text-xs text-base-content/60">Toca cualquier estructura del corte</p>
         </div>
       </div>
-      <div class="step step-primary">
+      <div class="step step-primary gs-step">
         <div class="step-content text-left ml-2 lg:ml-0 lg:mt-2">
           <p class="font-semibold text-sm">Identifica la estructura</p>
           <p class="text-xs text-base-content/60">Aparecerá su nombre al instante</p>
@@ -95,11 +94,11 @@ const modelImages = [
   </div>
 
   <!-- Team -->
-  <div class="mb-6">
+  <div class="mb-6 gs-section">
     <h2 class="text-2xl font-bold mb-4">Integrantes del equipo</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       {teamMembers.map((member) => (
-        <div class="flex items-center gap-3 p-3 rounded-box bg-base-200 hover:bg-base-300 transition-colors">
+        <div class="flex items-center gap-3 p-3 rounded-box bg-base-200 hover:bg-base-300 transition-colors gs-member">
           <div class="avatar placeholder">
             <div class="bg-primary text-primary-content rounded-full w-8 text-center">
               <span class="text-xs font-bold">{member.split(" ")[0][0]}{member.split(" ")[1]?.[0] ?? ""}</span>
@@ -112,3 +111,95 @@ const modelImages = [
   </div>
 
 </Layout>
+
+<!-- GSAP via CDN -->
+<script is:inline src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script is:inline src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script is:inline>
+  function initHomeAnimations() {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Kill any lingering ScrollTrigger instances from a previous navigation
+    ScrollTrigger.getAll().forEach(st => st.kill());
+
+    // Clear any stuck inline styles GSAP may have left behind
+    const allAnimated = document.querySelectorAll(
+      ".gs-hero-badge, .gs-hero-title, .gs-hero-sub, .gs-hero-btn, .gs-card, .gs-step, .gs-member"
+    );
+    allAnimated.forEach(el => gsap.set(el, { clearProps: "all" }));
+
+    // --- Hero ---
+    const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
+
+    heroTl
+      .fromTo(".gs-hero-badge",
+        { opacity: 0, y: -16 },
+        { opacity: 1, y: 0, duration: 0.5 }
+      )
+      .fromTo(".gs-hero-title",
+        { opacity: 0, y: 24 },
+        { opacity: 1, y: 0, duration: 0.65 },
+        "-=0.2"
+      )
+      .fromTo(".gs-hero-sub",
+        { opacity: 0, y: 16 },
+        { opacity: 1, y: 0, duration: 0.55 },
+        "-=0.3"
+      )
+      .fromTo(".gs-hero-btn",
+        { opacity: 0, scale: 0.92 },
+        { opacity: 1, scale: 1, duration: 0.45 },
+        "-=0.2"
+      );
+
+    // --- Carousel cards ---
+    gsap.fromTo(".gs-card",
+      { opacity: 0, x: 40 },
+      {
+        opacity: 1, x: 0,
+        duration: 0.6,
+        stagger: 0.15,
+        ease: "power2.out",
+        clearProps: "all",
+        scrollTrigger: {
+          trigger: ".gs-card",
+          start: "top 85%",
+        },
+      }
+    );
+
+    // --- Steps ---
+    gsap.fromTo(".gs-step",
+      { opacity: 0, y: 20 },
+      {
+        opacity: 1, y: 0,
+        duration: 0.5,
+        stagger: 0.18,
+        ease: "power2.out",
+        clearProps: "all",
+        scrollTrigger: {
+          trigger: ".gs-step",
+          start: "top 85%",
+        },
+      }
+    );
+
+    // --- Team members ---
+    gsap.fromTo(".gs-member",
+      { opacity: 0, x: -20 },
+      {
+        opacity: 1, x: 0,
+        duration: 0.45,
+        stagger: 0.07,
+        ease: "power2.out",
+        clearProps: "all",
+        scrollTrigger: {
+          trigger: ".gs-member",
+          start: "top 88%",
+        },
+      }
+    );
+  }
+
+  document.addEventListener("astro:page-load", initHomeAnimations);
+</script>
