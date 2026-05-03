@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.0](https://github.com/AramLR/pons-medulla-model/compare/v1.2.0...v1.3.0) (2026-05-03)
+
+
+### Features
+
+* added gsap animations ([7a9e753](https://github.com/AramLR/pons-medulla-model/commit/7a9e7533963d805c6ecde386fdfbe86dd9750b15))
+* **changelog:** update changelog ([5c11c1e](https://github.com/AramLR/pons-medulla-model/commit/5c11c1ef396d5c5d073b394b2cc3773e9f126d07))
+
 ## [1.2.0](https://github.com/AramLR/pons-medulla-model/compare/v1.1.1...v1.2.0) (2026-05-02)
 
 
