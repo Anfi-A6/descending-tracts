@@ -1,0 +1,14 @@
+---
+import Layout from "@layouts/Layout.astro"
+import { getCollection } from "astro:content"
+let bib = await getCollection("referenceBooks")
+console.log(bib)
+---
+
+<Layout pageTitle="Referencia">
+  <ul class="list list-inside">
+    {bib.map(book => (
+      <li class="list-row">{book.data.authorLastName}, {book.data.authorName.charAt(0)}. ({book.data.year}).<em class="m-0 p-0">{book.data.authorName}. {book.data.title}</em></li>
+    ))}
+</ul>
+</Layout>

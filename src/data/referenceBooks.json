@@ -1,0 +1,20 @@
+{
+  "snell": {
+    "title": "Neuroanatomía clínica",
+    "authorName": "Ryan",
+    "authorLastName": "Splittgerber",
+    "year": 2025
+  },
+  "crossman": {
+    "title": "Neuroanatomía. Texto y atlas en color",
+    "authorName": "Alan R.",
+    "authorLastName": "Crossman",
+    "year": 2020
+  },
+  "afifi": {
+    "title": "Neuroanatomía funcional: Texto y atlas",
+    "authorName": "Adel K.",
+    "authorLastName": "Afifi",
+    "year": 2021
+  }
+}
