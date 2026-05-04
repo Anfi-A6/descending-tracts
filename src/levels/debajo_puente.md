@@ -1,4 +1,5 @@
 ---
+expectedUrl: "/debajo_puente"
 imgUrl: "../img/debajo_puente.jpg"
 macrostructure: "Medulla"
 svgPath: "debajo_puente.svg"

@@ -1,5 +1,5 @@
 ---
-
+expectedUrl: "/decusacion_lemniscos"
 imgUrl: "../img/decusacion_lemniscos.png"
 macrostructure: "Medulla"
 name: "Decusación de los lemniscos"

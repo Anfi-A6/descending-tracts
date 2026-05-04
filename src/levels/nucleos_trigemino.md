@@ -1,4 +1,5 @@
 ---
+expectedUrl: "/nucleos_trigemino"
 macrostructure: "Pons"
 name: "Núcleos del trigémino"
 imgUrl: "../img/nucleos_trigemino.png"

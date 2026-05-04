@@ -1,0 +1,38 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import img1 from '@images/coliculo_facial.jpg'
+import img2 from '@images/nucleos_trigemino.png'
+
+const levels = await getCollection("levels")
+
+const levelsOfMedulla =  levels.filter((level) => level.data.macrostructure === "Pons")
+---
+
+<Layout pageTitle="Puente">
+
+  <div class="hero bg-base-200 min-h-screen">
+  <div class="hero-content flex-col lg:flex-row">
+    <div class="hover-3d">
+      <figure class="hover-gallery max-w-60">
+        <img src={img1.src} />
+        <img src={img2.src} />
+    </div>
+
+</figure> 
+    <div class="not-prose">
+      <h1 class="text-5xl font-bold">Explora los distintos niveles del puente!</h1>
+      <ul class="py-6 list not-prose">
+        {levelsOfMedulla.map((level) => (
+          <li class="list-row">
+            <a class="block w-full" href={"/levels" + level.data.expectedUrl}>
+              {level.data.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>
+  
+</Layout>

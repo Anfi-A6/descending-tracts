@@ -10,6 +10,7 @@ const Level = (image: SchemaContext["image"]) =>
     structures: z.array(Structure),
     imgUrl: image(),
     svgPath: z.string().optional(),
+    expectedUrl: z.string(),
   });
 
 export default Level;

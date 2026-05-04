@@ -1,4 +1,5 @@
 ---
+expectedUrl: "/nucleos_olivares"
 imgUrl: "../img/nucleos_olivares.png"
 macrostructure: "Medulla"
 name: "Parte media de los núcleos olivares"

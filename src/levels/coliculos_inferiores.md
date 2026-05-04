@@ -1,4 +1,5 @@
 ---
+expectedUrl: "/coliculos_inferiores"
 macrostructure: "Midbrain"
 name: "Colículo inferior"
 imgUrl: "../img/coliculo_inferior.jpg"

@@ -1,4 +1,5 @@
 ---
+expectedUrl: "/coliculo_facial"
 imgUrl: "../img/coliculo_facial.jpg"
 svgPath: "coliculo_facial.svg"
 macrostructure: "Pons"

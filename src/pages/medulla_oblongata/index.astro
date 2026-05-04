@@ -1,0 +1,42 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import img1 from '@images/decusacion_piramides.jpg'
+import img2 from '@images/decusacion_lemniscos.png'
+import img3 from '@images/nucleos_olivares.png'
+import img4 from '@images/debajo_puente.jpg'
+
+const levels = await getCollection("levels")
+
+const levelsOfMedulla =  levels.filter((level) => level.data.macrostructure === "Medulla")
+---
+
+<Layout pageTitle="Medula oblongada">
+
+  <div class="hero bg-base-200 min-h-screen">
+  <div class="hero-content flex-col lg:flex-row">
+    <div class="hover-3d">
+      <figure class="hover-gallery max-w-60">
+        <img src={img1.src} />
+        <img src={img2.src} />
+        <img src={img3.src} />
+        <img src={img4.src} />
+    </div>
+
+</figure> 
+    <div class="not-prose">
+      <h1 class="text-5xl font-bold">Explora los distintos niveles de la médula oblongada!</h1>
+      <ul class="py-6 list not-prose">
+        {levelsOfMedulla.map((level) => (
+          <li class="list-row">
+            <a class="block w-full" href={"/levels" + level.data.expectedUrl}>
+              {level.data.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>
+  
+</Layout>
