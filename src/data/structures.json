@@ -185,6 +185,16 @@
     "description": "Porción anterior del pedúnculo cerebral izquierdo, compuesta por fibras corticoespinales y corticonucleares que controlan la motricidad voluntaria del hemicuerpo derecho, flanqueadas por fibras corticopontinas. Se continúa caudalmente con la base del puente, donde los haces quedan dispersados entre los núcleos pontinos."
   },
   {
+    "svg_id": "pie_del_pedunculo_derecho",
+    "name": "Pie del pedúnculo derecho",
+    "description": "Porción anterior del pedúnculo cerebral derecho, compuesta por fibras corticoespinales y corticonucleares que controlan la motricidad voluntaria del hemicuerpo izquierdo, flanqueadas por fibras corticopontinas. Se continúa caudalmente con la basel puente, donde los haces quedan dispersados entre los núcleos pontinos."
+  },
+  {
+    "svg_id": "decusacion_rubroespinal",
+    "name": "Decusación de los tractos rubroespinales",
+    "description": "La decusación del tracto rubroespinal tiene lugar en el tegmento mesencefálico, inmediatamente ventral al núcleo rojo, como parte de la decusación tegmental ventral de Forel. Tras cruzar la línea media, las fibras descienden por el funículo lateral de la médula espinal, ipsilateral al núcleo rojo de origen, para hacer sinapsis sobre interneuronas del asta anterior que facilitan la actividad de las motoneuronas flexoras de las extremidades contralaterales al núcleo rojo emisor."
+  },
+  {
     "svg_id": "decusacion_de_los_lemniscos",
     "name": "Decusación de los lemniscos",
     "description": "Cruce en el plano medio de las fibras arcuatas internas procedentes de los núcleos grácil y cuneiforme, localizado en el tegmento de la médula oblongada inferior. Tras la decusación, las fibras forman el lemnisco medial que asciende aplicado a la superficie anterior del tegmento bulbar, conduciendo sensibilidad propioceptiva y táctil discriminativa del hemicuerpo contralateral."
